@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="{{meta.html_lang}}" dir="{{meta.html_dir}}">
+  <head>
+{{> head}}
+  </head>
+  <body class="page-hub">
+{{> site-header}}
+
+    <main id="main">
+      <section class="hub-hero" aria-labelledby="hub-heading">
+        <nav class="breadcrumbs" aria-label="{{guides.labels.breadcrumb_aria}}">
+          <ol>
+            <li><a href="{{nav.home_url}}">{{guides.labels.home}}</a></li>
+            <li aria-current="page">{{guides.labels.guides}}</li>
+          </ol>
+        </nav>
+        <h1 id="hub-heading">{{guides.hub.h1}}</h1>
+        <p>{{guides.hub.intro}}</p>
+      </section>
+
+      <section class="block guides" aria-label="{{guides.labels.guides}}">
+        <ul class="hub-grid">
+          {{#each guides.items as |guide|}}
+          <li>
+            <a href="{{guide.url}}">
+              <img src="{{guide.screenshot_src}}" alt="" width="460" height="995" loading="lazy" decoding="async" />
+              <span class="hub-text">
+                <span class="guide-tag">{{guide.eyebrow}}</span>
+                <span class="guide-title">{{guide.title}}</span>
+                <span class="guide-summary">{{guide.summary}}</span>
+              </span>
+            </a>
+          </li>
+          {{/each}}
+        </ul>
+      </section>
+
+{{> final-cta}}
+    </main>
+
+{{> site-footer}}
+
+    <script type="application/ld+json">
+      {{seo.structured_data.collection|json}}
+    </script>
+    <script type="application/ld+json">
+      {{seo.structured_data.item_list|json}}
+    </script>
+    <script type="application/ld+json">
+      {{seo.structured_data.breadcrumb_list|json}}
+    </script>
+
+    <script src="/site.js?v={{meta.version}}" defer></script>
+{{> analytics}}
+  </body>
+</html>

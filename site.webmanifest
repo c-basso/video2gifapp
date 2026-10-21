@@ -1,0 +1,26 @@
+{
+  "name": "Make Video to GIF",
+  "short_name": "Video to GIF",
+  "icons": [
+    {
+      "src": "/img/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#17122b",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "related_applications": [
+    {
+      "platform": "itunes",
+      "url": "https://apps.apple.com/app/id6762465120",
+      "id": "6762465120"
+    }
+  ]
+}

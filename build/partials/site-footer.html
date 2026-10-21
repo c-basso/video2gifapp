@@ -1,0 +1,61 @@
+      <footer class="site-footer">
+        <div class="footer-inner">
+          <div class="footer-brand">
+            <a class="footer-logo" href="{{nav.home_url}}">
+              <img src="/img/logo.webp" alt="" width="44" height="44" loading="lazy" decoding="async" />
+              <span>{{header.app_name}}</span>
+            </a>
+            <p class="footer-tagline">{{footer.tagline}}</p>
+            <a class="footer-store" href="{{header.download_url}}" target="_blank" rel="noopener noreferrer" aria-label="{{header.download_aria_label}}">
+              <svg width="15" height="18" viewBox="14 8 14 26" aria-hidden="true"><path fill="currentColor" d="M24.99671,19.88935a5.14625,5.14625,0,0,1,2.45058-4.31771,5.26776,5.26776,0,0,0-4.15039-2.24376c-1.74624-.1833-3.43913,1.04492-4.329,1.04492-.90707,0-2.27713-1.02672-3.75247-.99637a5.52735,5.52735,0,0,0-4.65137,2.8367c-2.01111,3.482-.511,8.59939,1.41551,11.414.96388,1.37823,2.09037,2.91774,3.56438,2.86315,1.4424-.05983,1.98111-.91977,3.7222-.91977,1.72494,0,2.23035.91977,3.73427.88506,1.54777-.02512,2.52292-1.38435,3.453-2.77563a11.39931,11.39931,0,0,0,1.579-3.21589A4.97284,4.97284,0,0,1,24.99671,19.88935Z"/><path fill="currentColor" d="M22.15611,11.47681a5.06687,5.06687,0,0,0,1.159-3.62989,5.15524,5.15524,0,0,0-3.33555,1.72582,4.82131,4.82131,0,0,0-1.18934,3.4955A4.26259,4.26259,0,0,0,22.15611,11.47681Z"/></svg>
+              <span>{{header.download_text}}</span>
+            </a>
+          </div>
+
+          <nav class="footer-col" aria-label="{{footer.col_app}}">
+            <p class="footer-col-title">{{footer.col_app}}</p>
+            <ul>
+              <li><a href="{{nav.home_url}}#screenshots">{{nav.screenshots}}</a></li>
+              <li><a href="{{nav.home_url}}#how-it-works">{{nav.how_it_works}}</a></li>
+              <li><a href="{{nav.home_url}}#faq">{{nav.faq}}</a></li>
+              <li><a href="{{header.download_url}}" target="_blank" rel="noopener noreferrer">{{footer.app_store_link_text}}</a></li>
+            </ul>
+          </nav>
+
+          {{#if footer.guides}}
+          <nav class="footer-col footer-col-guides" aria-label="{{footer.col_guides}}">
+            <p class="footer-col-title">{{footer.col_guides}}</p>
+            <ul>
+              {{#each footer.guides as |link|}}
+              <li><a href="{{link.url}}">{{link.title}}</a></li>
+              {{/each}}
+              <li><a class="footer-all" href="{{footer.guides_hub_url}}">{{footer.all_guides}}</a></li>
+            </ul>
+          </nav>
+          {{/if}}
+
+          <nav class="footer-col" aria-label="{{footer.col_company}}">
+            <p class="footer-col-title">{{footer.col_company}}</p>
+            <ul>
+              <li><a href="{{footer.privacy_url}}">{{footer.privacy_link}}</a></li>
+              <li><a href="{{footer.terms_url}}">{{footer.terms_link}}</a></li>
+              <li><a href="{{footer.developer_url}}" target="_blank" rel="noopener noreferrer">{{footer.developer_link}}</a></li>
+            </ul>
+          </nav>
+
+          {{#if meta.language_links}}
+          <div class="footer-languages">
+            <p class="footer-col-title">{{footer.languages_label}}</p>
+            <ul>
+              {{#each meta.language_links as |lang|}}
+              <li><a href="{{lang.url}}" hreflang="{{lang.hreflang}}" lang="{{lang.hreflang}}">{{lang.name}}</a></li>
+              {{/each}}
+            </ul>
+          </div>
+          {{/if}}
+        </div>
+        <div class="footer-bottom">
+          <p>{{footer.copyright}}</p>
+          <p>{{footer.last_updated_label}} <time datetime="{{footer.last_updated_iso}}">{{footer.last_updated_label_date}}</time></p>
+        </div>
+      </footer>

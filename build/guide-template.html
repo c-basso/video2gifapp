@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="{{meta.html_lang}}" dir="{{meta.html_dir}}">
+  <head>
+{{> head}}
+  </head>
+  <body class="page-guide">
+{{> site-header}}
+
+    <main id="main" class="guide-layout">
+      <nav class="breadcrumbs" aria-label="{{guides.labels.breadcrumb_aria}}">
+        <ol>
+          <li><a href="{{nav.home_url}}">{{guides.labels.home}}</a></li>
+          <li><a href="{{guides.hub_url}}">{{guides.labels.guides}}</a></li>
+          <li aria-current="page">{{guide.card_title}}</li>
+        </ol>
+      </nav>
+
+      <article class="guide-article">
+        <header class="guide-header">
+          <p class="guide-tag">{{guide.eyebrow}}</p>
+          <h1>{{guide.h1}}</h1>
+          <p class="guide-meta">
+            {{guides.labels.updated}} <time datetime="{{guide.updated_iso}}">{{guide.updated_label}}</time>, {{guides.labels.reading_time}}
+          </p>
+          <div class="quick-answer">
+            <p class="quick-answer-label">{{guides.labels.quick_answer}}</p>
+            <p>{{guide.quick_answer}}</p>
+          </div>
+        </header>
+
+        <div class="guide-body">
+          {{#each guide.intro as |para|}}
+          <p>{{para}}</p>
+          {{/each}}
+
+          {{#if guide.figure}}
+          <figure class="guide-figure">
+            <img src="{{guide.figure.src}}" alt="{{guide.figure.alt}}" width="460" height="995" loading="lazy" decoding="async" />
+            <figcaption>{{guide.figure.caption}}</figcaption>
+          </figure>
+          {{/if}}
+          {{#if guide.callout}}
+          <aside class="guide-callout"><p>{{guide.callout.text}}</p></aside>
+          {{/if}}
+
+          {{#each guide.sections as |section|}}
+          <section class="guide-section" id="{{section.id}}">
+            <h2>{{section.heading}}</h2>
+            {{#each section.paragraphs as |para|}}
+            <p>{{para}}</p>
+            {{/each}}
+            {{#if section.list}}
+            {{#if section.ordered}}
+            <ol>
+              {{#each section.list as |item|}}<li>{{item}}</li>{{/each}}
+            </ol>
+            {{/if}}
+            {{#if section.unordered}}
+            <ul>
+              {{#each section.list as |item|}}<li>{{item}}</li>{{/each}}
+            </ul>
+            {{/if}}
+            {{/if}}
+            {{#if section.table}}
+            <div class="table-wrap">
+              <table class="scoreboard">
+                <thead>
+                  <tr>{{#each section.table.head as |item|}}<th scope="col">{{item}}</th>{{/each}}</tr>
+                </thead>
+                <tbody>
+                  {{#each section.table.rows as |row|}}
+                  <tr>{{#each row as |item|}}<td>{{item}}</td>{{/each}}</tr>
+                  {{/each}}
+                </tbody>
+              </table>
+            </div>
+            {{/if}}
+            {{#if section.note}}
+            <p class="guide-note">{{section.note}}</p>
+            {{/if}}
+          </section>
+          {{/each}}
+
+          {{#if guide.steps}}
+          <section class="guide-section guide-steps" id="steps">
+            <h2>{{guide.steps.heading}}</h2>
+            <p>{{guide.steps.intro}}</p>
+            <ol class="steps steps-vertical">
+              {{#each guide.steps.items as |step|}}
+              <li id="step-{{step.number}}">
+                <span class="step-n">{{step.number}}</span>
+                <div>
+                  <h3>{{step.name}}</h3>
+                  <p>{{step.text}}</p>
+                </div>
+              </li>
+              {{/each}}
+            </ol>
+            <div class="inline-cta">
+              <img src="/img/app-icon.webp" alt="" width="64" height="64" loading="lazy" decoding="async" />
+              <div class="inline-cta-copy">
+                <p class="inline-cta-title">{{guide.cta.title}}</p>
+                <p>{{guide.cta.text}}</p>
+              </div>
+{{> appstore-button}}
+            </div>
+          </section>
+          {{/if}}
+
+          {{#if guide.tips}}
+          <section class="guide-section">
+            <h2>{{guide.tips.heading}}</h2>
+            <ul class="tips">
+              {{#each guide.tips.items as |tip|}}<li>{{tip}}</li>{{/each}}
+            </ul>
+          </section>
+          {{/if}}
+
+          {{#if guide.faq}}
+          <section class="guide-section guide-faq">
+            <h2>{{guides.labels.faq_heading}}</h2>
+            <div class="faq-list faq-list-single">
+              {{#each guide.faq as |faq|}}
+              <article class="faq-item">
+                <h3 class="faq-q">{{faq.question}}</h3>
+                <p class="faq-a">{{faq.answer}}</p>
+              </article>
+              {{/each}}
+            </div>
+          </section>
+          {{/if}}
+
+          <p class="guide-disclaimer">{{guides.labels.disclaimer}}</p>
+        </div>
+      </article>
+
+      <aside class="guide-aside">
+        <div class="app-card">
+          <img src="/img/app-icon.webp" alt="{{header.logo_alt}}" width="80" height="80" loading="lazy" decoding="async" />
+          <p class="app-card-name">{{header.app_name}}</p>
+          <p class="app-card-sub">{{download.subtitle}}</p>
+          {{#if download.rating_line}}<p class="app-card-sub">{{download.rating_line}}</p>{{/if}}
+{{> appstore-button}}
+          <p class="app-card-note">{{download.price}}, {{download.price_note}}</p>
+          <img class="app-card-qr" src="/img/app-store-qr.png" alt="{{download.qr_alt}}" width="96" height="96" loading="lazy" decoding="async" />
+        </div>
+        {{#if guide.related}}
+        <nav class="related" aria-label="{{guides.labels.related}}">
+          <p class="related-title">{{guides.labels.related}}</p>
+          <ul>
+            {{#each guide.related as |link|}}
+            <li><a href="{{link.url}}"><span class="related-tag">{{link.eyebrow}}</span>{{link.title}}</a></li>
+            {{/each}}
+          </ul>
+          <a class="pill-link" href="{{guides.hub_url}}">{{guides.labels.all_guides}}</a>
+        </nav>
+        {{/if}}
+      </aside>
+    </main>
+
+{{> site-footer}}
+
+    <script type="application/ld+json">
+      {{seo.structured_data.article|json}}
+    </script>
+    <script type="application/ld+json">
+      {{seo.structured_data.howto|json}}
+    </script>
+    <script type="application/ld+json">
+      {{seo.structured_data.faqpage|json}}
+    </script>
+    <script type="application/ld+json">
+      {{seo.structured_data.webpage|json}}
+    </script>
+    <script type="application/ld+json">
+      {{seo.structured_data.breadcrumb_list|json}}
+    </script>
+
+    <script src="/site.js?v={{meta.version}}" defer></script>
+{{> analytics}}
+  </body>
+</html>

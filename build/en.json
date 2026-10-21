@@ -1,0 +1,401 @@
+{
+  "meta": {
+    "lang": "en",
+    "title": "Make Video to GIF – Turn Any Clip into a GIF on iPhone",
+    "description": "Make a GIF from any video on iPhone: trim the moment, set FPS, crop and loop count, check the file size, then export on device. Free app, no website upload.",
+    "keywords": "video to gif, make gif iphone, video to gif iphone, gif from video, gif maker app, screen recording to gif, reduce gif size, gif for discord, live photo to gif",
+    "canonical": "https://video2gifapp.com/",
+    "og_title": "Make Video to GIF – Turn Clips into Loops on iPhone",
+    "og_description": "Trim a clip, tune FPS, crop, loop count and encoder, and export a small, shareable GIF on your iPhone. The GIF is made on the device.",
+    "og_image": "https://video2gifapp.com/site_preview.png",
+    "og_image_alt": "Make Video to GIF on iPhone: GIF settings with a Convert to GIF button and an estimated file size",
+    "og_url": "https://video2gifapp.com/",
+    "og_locale": "en_US",
+    "twitter_url": "https://video2gifapp.com/",
+    "twitter_title": "Make Video to GIF – Turn Clips into Loops on iPhone",
+    "twitter_description": "Trim a clip, tune FPS, crop, loop count and encoder, and export a small, shareable GIF on your iPhone. The GIF is made on the device.",
+    "twitter_image": "https://video2gifapp.com/site_preview.png",
+    "twitter_image_alt": "Make Video to GIF on iPhone: GIF settings with a Convert to GIF button and an estimated file size"
+  },
+  "header": {
+    "app_name_suffix": "Turn clips into loops",
+    "logo_alt": "Make Video to GIF app icon",
+    "app_name": "Make Video to GIF",
+    "brand_name": "Make Video to GIF",
+    "brand_subtitle": "Video to GIF converter for iPhone",
+    "download_text": "Download on the App Store",
+    "download_aria_label": "Download Make Video to GIF on the App Store"
+  },
+  "nav": {
+    "aria": "Main navigation",
+    "how_it_works": "How it works",
+    "screenshots": "Screenshots",
+    "guides": "Guides",
+    "faq": "FAQ",
+    "download": "App Store",
+    "menu_label": "Menu"
+  },
+  "hero": {
+    "title_prefix": "Turn clips",
+    "title_highlight": "into loops.",
+    "subtitle": "Make Video to GIF is an iPhone app that turns a video, screen recording or camera clip into an animated GIF. Trim it to the moment, crop it, set the frame rate and loop, see how big the file will be, then share it anywhere.",
+    "cta_secondary_link": "See how it works",
+    "intent_link": {
+      "guide": "make-a-gif-from-a-video-on-iphone",
+      "text": "Step by step: make a GIF from a video on iPhone"
+    }
+  },
+  "demo": {
+    "aria": "Demo GIF player: pick a frame rate to see how smooth the loop plays and how big the file gets",
+    "alt": "Pixel-art GIF of a white cat bobbing its head and blinking, looping",
+    "badge": "GIF",
+    "frame_label": "Frame",
+    "fps_label": "Frame rate",
+    "fps_options": [
+      "8",
+      "12",
+      "24"
+    ],
+    "fps_default": "12",
+    "size_label": "File size",
+    "trim_label": "Trimmed to",
+    "trim_range": "0:05 – 0:08",
+    "size_note": "Same 8-frame loop at three frame rates. Sizes are an illustration for a 3-second, 480 px clip; the app shows the real estimate before you export."
+  },
+  "geo": {
+    "summary_aria": "What this app is",
+    "summary_lead": "Summary: Make Video to GIF is an iPhone app that converts short videos into animated GIF files. You trim the clip, crop it, set frames per second, loop count and encoder, and export a standard GIF.",
+    "summary_body": "Published on the Apple App Store by Vladimir Ivakhnenko (c-basso) in the Photo & Video and Productivity categories. The GIF is encoded on the iPhone, so the video is not uploaded to a website, and the finished file goes to the iOS share sheet: Messages, Mail, AirDrop, Photos, Discord, Slack, Telegram or WhatsApp.",
+    "stats_title": "At a glance",
+    "stats": [
+      {
+        "value": "3 steps",
+        "label": "Pick a clip; trim and adjust the GIF settings; convert and share."
+      },
+      {
+        "value": "5 controls",
+        "label": "Trim, crop with aspect presets, frames per second, loop count, encoder mode."
+      },
+      {
+        "value": "On device",
+        "label": "The GIF is made on your iPhone; export goes through the iOS share sheet."
+      },
+      {
+        "value": "iOS 18.6+",
+        "label": "iPhone app, 28.6 MB download."
+      },
+      {
+        "value": "31 languages",
+        "label": "The app is localized into English and 30 more languages."
+      },
+      {
+        "value": "Free",
+        "label": "Free download with optional in-app purchases, rated 4+."
+      }
+    ],
+    "compare_title": "Shortcuts vs an online converter vs Make Video to GIF",
+    "compare_intro": "Three common ways to turn a video into a GIF on iPhone, and what each one lets you control.",
+    "compare_col_topic": "Topic",
+    "compare_col_a": "Shortcuts app",
+    "compare_col_b": "Online converter",
+    "compare_col_app": "Make Video to GIF",
+    "compare_rows": [
+      {
+        "topic": "Where the video goes",
+        "a": "Stays on the iPhone.",
+        "b": "Uploaded to the converter's server.",
+        "app": "Stays on the iPhone; the GIF is encoded on the device."
+      },
+      {
+        "topic": "Choosing the moment",
+        "a": "A basic trim before saving.",
+        "b": "Start and end fields or sliders in a browser tab.",
+        "app": "Timeline trim with a frame strip."
+      },
+      {
+        "topic": "File size control",
+        "a": "Mostly fixed; changing it means editing the shortcut's actions.",
+        "b": "Depends on the site; often size or quality sliders.",
+        "app": "FPS, crop, encoder and loop settings, with an estimated size before export."
+      },
+      {
+        "topic": "Starting from another app",
+        "a": "Run the shortcut, then pick the video.",
+        "b": "Save the video, open the site, upload.",
+        "app": "Share one movie from Photos or Files straight into the app."
+      }
+    ],
+    "faq_section_title": "Frequently asked questions"
+  },
+  "download": {
+    "title": "Get Make Video to GIF on the App Store",
+    "subtitle": "Turn clips into loops. Photo & Video app for iPhone.",
+    "price": "Free",
+    "price_note": "optional in-app purchases",
+    "qr_alt": "QR code linking to Make Video to GIF on the App Store",
+    "qr_label": "Scan with your iPhone camera",
+    "requirements": "Requires iOS 18.6 or later. 28.6 MB. English and 30 more languages. Rated 4+.",
+    "note": "For reaction loops, memes, UI bug reports, product demos and tutorial moments: anything that says more as a short loop than as a full video."
+  },
+  "tools": {
+    "title": "From clip to GIF in four screens",
+    "intro": "The same screens you will see on the App Store, in the order you use them.",
+    "items": [
+      {
+        "title": "Pick any clip",
+        "text": "Import a video from your library, or send one movie from Photos, Files or another app through the Share menu. Screen recordings work too.",
+        "shot": "/img/screenshots/1.webp",
+        "alt": "Make Video to GIF App Store screenshot with a video icon turning into a GIF icon and the headline Video to GIF",
+        "color": "pink"
+      },
+      {
+        "title": "Trim to the moment",
+        "text": "Drag the handles on the frame strip to keep only the seconds you need. Shorter clips make smaller, faster-loading GIFs.",
+        "shot": "/img/screenshots/3.webp",
+        "alt": "Trim screen with a frame strip of a white cat video, a 0:05 to 0:13 selection and a Save button",
+        "color": "violet"
+      },
+      {
+        "title": "Tune the GIF",
+        "text": "Open GIF settings to set frames per second, crop, loop count and encoder. The estimated file size updates before you tap Convert to GIF.",
+        "shot": "/img/screenshots/2.webp",
+        "alt": "Video preview with Edit Video and GIF settings buttons, a Convert to GIF button and an estimated file size of 4.8 MB",
+        "color": "blue"
+      },
+      {
+        "title": "Export and share",
+        "text": "The GIF is created on your iPhone with a progress indicator you can cancel. Then send it from the share sheet or save it to Photos.",
+        "shot": "/img/screenshots/4.webp",
+        "alt": "Creating GIF progress at 34 percent with a Cancel button",
+        "color": "green"
+      }
+    ]
+  },
+  "screenshots": {
+    "aria": "App screenshots, scroll horizontally"
+  },
+  "sections": {
+    "feature_card": {
+      "description": "Make Video to GIF focuses on the few controls that decide how a GIF looks and how big it is: the seconds you keep, the crop, the frame rate, the loop and the encoder."
+    },
+    "steps_card": {
+      "title": "Three steps from video to GIF",
+      "step_1": "Pick a video from your library, or share one movie into the app from Photos, Files or another app.",
+      "step_2": "Trim to the seconds you need and crop with an aspect preset. Then set FPS, loop count and encoder in GIF settings.",
+      "step_3": "Tap Convert to GIF, then share the file to Messages, Mail, AirDrop, Discord or Slack, or save it to Photos.",
+      "label": "Short clips with clear motion look best. For a smaller file, trim harder, crop tighter and lower the frame rate."
+    },
+    "audience_card": {
+      "title": "Made for anyone who would rather send a loop than a video.",
+      "item_1": "Chatters and meme makers turning a funny second into a reaction GIF.",
+      "item_2": "Discord, Reddit and forum members who need a GIF under an upload limit.",
+      "item_3": "Developers and designers sharing a UI flow or a reproducible bug as a GIF.",
+      "item_4": "Students and teachers clipping a tutorial moment for a class thread."
+    }
+  },
+  "guides": {
+    "title": "Guides for making GIFs on iPhone",
+    "intro": "Step-by-step help for the moments people need a GIF: from a video, from a screen recording, for Discord or Slack, and smaller files.",
+    "hub_link_text": "See all guides",
+    "read_more": "Read the guide",
+    "hub": {
+      "title": "Video to GIF Guides for iPhone: Make, Trim and Shrink GIFs",
+      "description": "Step-by-step guides for making a GIF from a video on iPhone: screen recordings, Live Photos, smaller file sizes, looping, and GIFs for Discord, Slack and chats.",
+      "h1": "Guides: make GIFs from videos on iPhone",
+      "intro": "Every guide starts with a direct answer, then shows the exact steps on iPhone, including the free built-in options."
+    },
+    "labels": {
+      "home": "Home",
+      "guides": "Guides",
+      "breadcrumb_aria": "Breadcrumb",
+      "updated": "Updated",
+      "reading_time": "4 min read",
+      "quick_answer": "Quick answer",
+      "faq_heading": "Questions people also ask",
+      "related": "Related guides",
+      "all_guides": "All guides",
+      "disclaimer": "Only convert videos you have the right to share. Make Video to GIF is an independent app and is not affiliated with Apple, GIPHY, Discord or Slack."
+    },
+    "default_cta": {
+      "title": "Do it in Make Video to GIF",
+      "text": "Free on the App Store. Pick a clip, trim, tune, export."
+    }
+  },
+  "faq_section": {
+    "intro": "Short answers first. The full walkthrough is in the guides.",
+    "learn_more_label": "Read the full guide"
+  },
+  "cta": {
+    "title": "Send the loop, not the video.",
+    "text": "Pick a clip, trim it to the best second, and share a GIF that plays everywhere.",
+    "facts": [
+      "Free download",
+      "iOS 18.6 or later",
+      "GIF made on your iPhone"
+    ]
+  },
+  "footer": {
+    "copyright": "© {year} c-basso, makers of Make Video to GIF",
+    "tagline": "A video to GIF converter for iPhone: trim, crop, frame rate, loop count and encoder, exported on the device.",
+    "last_updated_label": "Updated",
+    "privacy_link": "Privacy Policy",
+    "terms_link": "Terms of Use",
+    "app_store_link_text": "App Store listing",
+    "languages_label": "This page in other languages",
+    "col_app": "App",
+    "col_guides": "Popular guides",
+    "col_company": "Legal",
+    "all_guides": "All guides",
+    "developer_link": "More apps by c-basso",
+    "developer_url": "https://apps.apple.com/developer/id1239180595"
+  },
+  "seo": {
+    "breadcrumb_home": "Home",
+    "faq": [
+      {
+        "question": "How do I make a GIF from a video on iPhone?",
+        "answer": "Open Make Video to GIF, pick the video, trim it to the seconds you want, set FPS, crop and loop count in GIF settings, and tap Convert to GIF. Then share the file or save it to Photos. Without an app, the free Video to GIF shortcut in the Shortcuts app does a basic version.",
+        "guide": "make-a-gif-from-a-video-on-iphone"
+      },
+      {
+        "question": "Is my video uploaded anywhere?",
+        "answer": "No upload is needed. The GIF is encoded on your iPhone and the finished file goes to the iOS share sheet. Online converters, by contrast, upload the video to their server."
+      },
+      {
+        "question": "How do I make a GIF smaller?",
+        "answer": "Keep fewer seconds, crop to the part that moves, lower the frames per second (10 to 15 is plenty for most reactions) and pick the encoder mode that favours file size. The app shows an estimated size before you export."
+      },
+      {
+        "question": "Can I turn a screen recording into a GIF?",
+        "answer": "Yes. A screen recording is saved as a normal video in Photos, so you can pick it, trim it to the interaction and export a GIF for a bug report, a Slack thread or a tutorial."
+      },
+      {
+        "question": "Can the GIF loop forever or play only once?",
+        "answer": "Both. Loop count is a GIF setting: choose an infinite loop for reactions, or a fixed number of plays for a demo."
+      },
+      {
+        "question": "Why does my GIF look grainy or blocky?",
+        "answer": "GIF can only use 256 colors per frame, so gradients and dark footage band. Try the encoder mode that favours palette detail, crop tighter and keep the clip short; very long, high-FPS clips trade quality for size."
+      },
+      {
+        "question": "Is Make Video to GIF free, and which devices does it run on?",
+        "answer": "The download is free with optional in-app purchases, including a subscription with a free trial. It requires iOS 18.6 or later on iPhone. There is no Android version.",
+        "learn_more_url": "__APP_STORE_URL__",
+        "learn_more_title": "Make Video to GIF on the App Store: price, devices and screenshots"
+      }
+    ],
+    "structured_data": {
+      "software_application": {
+        "@context": "https://schema.org",
+        "@type": "MobileApplication",
+        "name": "Make Video to GIF",
+        "operatingSystem": "iOS 18.6 or later",
+        "applicationCategory": "MultimediaApplication",
+        "applicationSubCategory": "Video to GIF converter",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "category": "free"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Vladimir Ivakhnenko"
+        },
+        "inLanguage": [
+          "en",
+          "hr",
+          "cs",
+          "da",
+          "nl",
+          "fi",
+          "fr",
+          "de",
+          "el",
+          "he",
+          "hu",
+          "id",
+          "it",
+          "ja",
+          "ko",
+          "ms",
+          "nb",
+          "pl",
+          "pt",
+          "ro",
+          "ru",
+          "zh-Hans",
+          "zh-Hant",
+          "sk",
+          "es",
+          "sv",
+          "th",
+          "tr",
+          "uk",
+          "vi",
+          "fil"
+        ],
+        "featureList": [
+          "Trim the video timeline to the exact moment",
+          "Crop with aspect presets",
+          "Frames per second control",
+          "Loop count, including infinite loop",
+          "Encoder modes: smaller file or more palette detail",
+          "Estimated file size before export",
+          "On-device GIF encoding with progress and cancel",
+          "Share extension: send a movie from Photos or Files",
+          "Reopen projects and export again"
+        ],
+        "description": "iPhone app that turns short videos, screen recordings and camera clips into animated GIFs, with trim, crop, frame rate, loop count and encoder controls."
+      },
+      "organization": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "c-basso",
+        "url": "https://video2gifapp.com/",
+        "logo": "https://video2gifapp.com/img/logo.webp",
+        "description": "Independent publisher (Vladimir Ivakhnenko) of Make Video to GIF and related iOS utilities.",
+        "sameAs": [
+          "https://x.com/c__basso",
+          "https://apps.apple.com/developer/id1239180595"
+        ]
+      },
+      "website": {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Make Video to GIF",
+        "url": "https://video2gifapp.com/"
+      },
+      "howto": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to make a GIF from a video on iPhone with Make Video to GIF",
+        "description": "Pick a video, trim it, set the GIF options and export the GIF on your iPhone.",
+        "totalTime": "PT1M",
+        "tool": [
+          {
+            "@type": "HowToTool",
+            "name": "Make Video to GIF app for iPhone"
+          }
+        ],
+        "step": [
+          {
+            "@type": "HowToStep",
+            "name": "Pick a video",
+            "text": "Open Make Video to GIF and choose a video from your library, or share one movie into the app from Photos or Files."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Trim and adjust",
+            "text": "Trim to the seconds you need, crop, and set frames per second, loop count and encoder in GIF settings."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Convert and share",
+            "text": "Tap Convert to GIF, then send the GIF from the share sheet or save it to Photos."
+          }
+        ]
+      }
+    }
+  }
+}

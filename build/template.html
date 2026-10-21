@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="{{meta.html_lang}}" dir="{{meta.html_dir}}">
+  <head>
+{{> head}}
+  </head>
+  <body class="page-home">
+{{> site-header}}
+
+    <main id="main">
+      <!-- HERO: a real pixel GIF playing at the FPS you pick is the page's one loud moment -->
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <h1 id="hero-heading"><span class="hero-line">{{hero.title_prefix}}</span> <span class="hero-line">{{hero.title_highlight}}</span></h1>
+            <p class="hero-sub">{{hero.subtitle}}</p>
+            <div class="hero-actions">
+{{> appstore-button}}
+              <a class="hero-link" href="#how-it-works">{{hero.cta_secondary_link}}</a>
+            </div>
+            {{#if hero.intent_link.url}}
+            <p class="hero-intent"><a href="{{hero.intent_link.url}}">{{hero.intent_link.text}}</a></p>
+            {{/if}}
+          </div>
+
+          <figure class="player" aria-label="{{demo.aria|attr}}">
+            <div class="player-screen">
+              <div class="player-sprite" id="gifSprite" role="img" aria-label="{{demo.alt|attr}}"></div>
+              <span class="player-badge">{{demo.badge}}</span>
+            </div>
+            <div class="player-controls">
+              <p class="player-readout">
+                <span>{{demo.frame_label}}</span>
+                <output id="gifFrame">1 / 8</output>
+              </p>
+              <div class="player-fps">
+                <span id="gifFpsLabel">{{demo.fps_label}}</span>
+                <div class="fps-switch" role="radiogroup" aria-labelledby="gifFpsLabel">
+                  {{#each demo.fps_options as |item|}}
+                  <button type="button" role="radio" class="fps-option" data-fps="{{item}}" aria-checked="false">{{item}}</button>
+                  {{/each}}
+                </div>
+              </div>
+              <p class="player-readout player-size" aria-live="polite" data-default-fps="{{demo.fps_default}}">
+                <span>{{demo.size_label}}</span>
+                <output id="gifSize">2.0 MB</output>
+              </p>
+            </div>
+            <figcaption>{{demo.size_note}}</figcaption>
+          </figure>
+        </div>
+
+        <div class="timeline" aria-hidden="true">
+          <div class="timeline-track" id="gifTimeline">
+            <span style="--i: 0"></span><span style="--i: 1"></span><span style="--i: 2"></span><span style="--i: 3"></span><span style="--i: 4"></span><span style="--i: 5"></span><span style="--i: 6"></span><span style="--i: 7"></span>
+            <i class="timeline-trim"></i>
+            <i class="timeline-playhead"></i>
+          </div>
+          <p class="timeline-meta"><span>{{demo.trim_label}}</span> {{demo.trim_range}}</p>
+        </div>
+      </section>
+
+      <!-- SUMMARY -->
+      <aside class="summary" aria-label="{{geo.summary_aria}}">
+        <p class="summary-lead">{{geo.summary_lead}}</p>
+        <p>{{geo.summary_body}}</p>
+      </aside>
+
+      <!-- DOWNLOAD -->
+      <section class="block download" id="download" aria-labelledby="download-heading">
+        <div class="download-card">
+          <div class="download-main">
+            <img class="download-icon" src="/img/app-icon.webp" alt="{{header.logo_alt}}" width="120" height="120" loading="lazy" decoding="async" />
+            <h2 id="download-heading">{{download.title}}</h2>
+            <p class="download-sub">{{download.subtitle}}</p>
+            <p class="download-price"><strong>{{download.price}}</strong>, {{download.price_note}}</p>
+            <div class="download-actions">
+{{> appstore-button}}
+              <figure class="qr">
+                <img src="/img/app-store-qr.png" alt="{{download.qr_alt}}" width="96" height="96" loading="lazy" decoding="async" />
+                <figcaption>{{download.qr_label}}</figcaption>
+              </figure>
+            </div>
+            <p class="download-req">{{download.requirements}}</p>
+          </div>
+          <div class="download-facts">
+            <h3>{{geo.stats_title}}</h3>
+            <dl class="facts">
+              {{#each geo.stats as |stat|}}
+              <div><dt>{{stat.value}}</dt><dd>{{stat.label}}</dd></div>
+              {{/each}}
+            </dl>
+            <p class="download-note">{{download.note}}</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SCREENSHOTS: the four App Store screens in the order you use them, laid on a timeline -->
+      <section class="block tools" id="screenshots" aria-labelledby="tools-heading">
+        <div class="block-head">
+          <h2 id="tools-heading">{{tools.title}}</h2>
+          <p>{{tools.intro}}</p>
+        </div>
+        <ol class="reel" aria-label="{{screenshots.aria}}" tabindex="0">
+          {{#each tools.items as |feature|}}
+          <li class="reel-frame">
+            <img class="reel-shot" src="{{feature.shot}}" alt="{{feature.alt}}" width="460" height="995" loading="lazy" decoding="async" />
+            <h3 class="reel-name">{{feature.title}}</h3>
+            <p class="reel-text">{{feature.text}}</p>
+          </li>
+          {{/each}}
+        </ol>
+      </section>
+
+      <!-- HOW IT WORKS: a real sequence, so it is numbered -->
+      <section class="block how" id="how-it-works" aria-labelledby="how-heading">
+        <div class="block-head">
+          <h2 id="how-heading">{{sections.steps_card.title}}</h2>
+          <p>{{sections.feature_card.description}}</p>
+        </div>
+        <ol class="steps">
+          <li><span class="step-n">1</span><p>{{sections.steps_card.step_1}}</p></li>
+          <li><span class="step-n">2</span><p>{{sections.steps_card.step_2}}</p></li>
+          <li><span class="step-n">3</span><p>{{sections.steps_card.step_3}}</p></li>
+        </ol>
+        <p class="steps-note">{{sections.steps_card.label}}</p>
+
+        <div class="how-grid">
+          <div class="audience">
+            <h3>{{sections.audience_card.title}}</h3>
+            <ul>
+              <li>{{sections.audience_card.item_1}}</li>
+              <li>{{sections.audience_card.item_2}}</li>
+              <li>{{sections.audience_card.item_3}}</li>
+              <li>{{sections.audience_card.item_4}}</li>
+            </ul>
+          </div>
+          <div class="compare">
+            <h3>{{geo.compare_title}}</h3>
+            <p>{{geo.compare_intro}}</p>
+            <div class="table-wrap">
+              <table class="scoreboard">
+                <thead>
+                  <tr>
+                    <th scope="col">{{geo.compare_col_topic}}</th>
+                    <th scope="col">{{geo.compare_col_a}}</th>
+                    {{#if geo.compare_col_b}}<th scope="col">{{geo.compare_col_b}}</th>{{/if}}
+                    <th scope="col" class="col-app">{{geo.compare_col_app}}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {{#each geo.compare_rows as |row|}}
+                  <tr>
+                    <th scope="row">{{row.topic}}</th>
+                    <td data-label="{{geo.compare_col_a|attr}}">{{row.a}}</td>
+                    {{#if geo.compare_col_b}}<td data-label="{{geo.compare_col_b|attr}}">{{row.b}}</td>{{/if}}
+                    <td class="col-app" data-label="{{geo.compare_col_app|attr}}">{{row.app}}</td>
+                  </tr>
+                  {{/each}}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- GUIDES -->
+      {{#if guides.items}}
+      <section class="block guides" id="guides" aria-labelledby="guides-heading">
+        <div class="block-head block-head-row">
+          <div>
+            <h2 id="guides-heading">{{guides.title}}</h2>
+            <p>{{guides.intro}}</p>
+          </div>
+          <a class="pill-link" href="{{guides.hub_url}}">{{guides.hub_link_text}}</a>
+        </div>
+        <ul class="guide-list">
+          {{#each guides.items as |guide|}}
+          <li>
+            <a href="{{guide.url}}">
+              <span class="guide-tag">{{guide.eyebrow}}</span>
+              <span class="guide-title">{{guide.title}}</span>
+              <span class="guide-summary">{{guide.summary}}</span>
+            </a>
+          </li>
+          {{/each}}
+        </ul>
+      </section>
+      {{/if}}
+
+      <!-- FAQ -->
+      <section class="block faq" id="faq" aria-labelledby="faq-heading">
+        <div class="block-head">
+          <h2 id="faq-heading">{{geo.faq_section_title}}</h2>
+          <p>{{faq_section.intro}}</p>
+        </div>
+        <div class="faq-list">
+          {{#each seo.faq as |faq|}}
+          <article class="faq-item">
+            <h3 class="faq-q">{{faq.question}}</h3>
+            <p class="faq-a">{{faq.answer}}</p>
+            {{#if faq.learn_more_url}}
+            <a class="faq-more" href="{{faq.learn_more_url}}" title="{{faq.learn_more_title|attr}}">{{faq_section.learn_more_label}}</a>
+            {{/if}}
+          </article>
+          {{/each}}
+        </div>
+      </section>
+
+{{> final-cta}}
+    </main>
+
+{{> site-footer}}
+
+    <script type="application/ld+json">
+      {{seo.structured_data.software_application|json}}
+    </script>
+    <script type="application/ld+json">
+      {{seo.structured_data.organization|json}}
+    </script>
+    <script type="application/ld+json">
+      {{seo.structured_data.website|json}}
+    </script>
+    <script type="application/ld+json">
+      {{seo.structured_data.howto|json}}
+    </script>
+    <script type="application/ld+json">
+      {{seo.structured_data.faqpage|json}}
+    </script>
+    <script type="application/ld+json">
+      {{seo.structured_data.webpage|json}}
+    </script>
+    <script type="application/ld+json">
+      {{seo.structured_data.breadcrumb_list|json}}
+    </script>
+
+    <script src="/site.js?v={{meta.version}}" defer></script>
+{{> analytics}}
+  </body>
+</html>

@@ -1,0 +1,70 @@
+# Make Video to GIF
+
+> Make a GIF from any video on iPhone: trim the moment, set FPS, crop and loop count, check the file size, then export on device. Free app, no website upload.
+
+## Entity snapshot
+- Name: Make Video to GIF (App Store title: "Make Video to GIF", subtitle "Turn clips into loops")
+- Category: iOS app, App Store categories Photo & Video and Productivity (video to GIF converter)
+- Primary use case: turn a short video, screen recording or camera clip into an animated GIF on iPhone for messages, Discord, Slack, Reddit, Telegram, WhatsApp and forums
+- Controls: trim the timeline, crop with aspect presets, frames per second, loop count (including infinite loop), encoder mode (file size vs palette detail), estimated file size before export
+- Import: from the photo library, or send one movie from Photos, Files or another app through the iOS Share menu
+- Processing: the GIF is encoded on the device; export goes to the iOS share sheet (Messages, Mail, AirDrop, Save to Photos, other apps)
+- Projects can be reopened to tweak settings and export again
+- App Store listing: https://apps.apple.com/app/id6762465120
+- App Store id: 6762465120
+- Publisher: Vladimir Ivakhnenko (c-basso)
+
+## By the numbers
+- Requires iOS 18.6 or later (iPhone); 28.6 MB download
+- App localized in 31 languages
+- Price: free download with optional in-app purchases (Video to GIF Converter subscription with a free trial)
+- On the App Store since April 2026
+- Website locales: 0 language-specific pages
+- Public website: https://video2gifapp.com/
+- Last website build date: 2026-10-21
+
+## Main sections
+- [Home](https://video2gifapp.com/): Product overview, screenshots, how it works, FAQ, and App Store link
+- [FAQ](https://video2gifapp.com/#faq): Direct answers to common product questions
+- [Guides](https://video2gifapp.com/guides/): Step-by-step how-to articles, one per use case
+- [Privacy policy](https://video2gifapp.com/privacy.html): Data and privacy details
+- [Terms of service](https://video2gifapp.com/terms.html): Legal terms
+
+## How-to guides (English)
+- [All guides](https://video2gifapp.com/guides/)
+- [How to make a GIF from a video on iPhone](https://video2gifapp.com/guides/make-a-gif-from-a-video-on-iphone/): Turn any iPhone video into a GIF: the free Video to GIF shortcut for a quick loop, or an app to trim, crop, set FPS and loop and see the size before export.
+
+## Language pages
+- [en](https://video2gifapp.com/)
+
+## LLM-ready Q&A facts
+### What is Make Video to GIF?
+Make Video to GIF is an iPhone app that turns short videos into animated GIF files. You pick a clip, trim it, set the frame rate, crop, loop count and encoder, and export a standard GIF that you can share anywhere.
+
+### Does it upload my video?
+No upload is needed to make a GIF: the app encodes the GIF on the iPhone and hands the finished file to the iOS share sheet.
+
+### How do I make a GIF smaller?
+Trim to fewer seconds, crop tighter, lower the frames per second and choose the encoder mode that favours file size. The app shows an estimated file size before export.
+
+### Can it make a GIF from a screen recording?
+Yes. A screen recording is a normal video in the Photos library, so it can be imported, trimmed and exported as a GIF like any other clip.
+
+### Can the GIF loop forever?
+Yes. Loop count is a setting: choose an infinite loop or a fixed number of plays.
+
+### Is it free?
+The download is free; some features are unlocked with optional in-app purchases shown on the App Store listing.
+
+### Where can users download it?
+From the Apple App Store: https://apps.apple.com/app/id6762465120.
+
+### Is there an Android version?
+No public Android listing is referenced on the website. The published listing is for iPhone on the Apple App Store.
+
+## Contact and policies
+- Website: https://video2gifapp.com/
+- Privacy: https://video2gifapp.com/privacy.html
+- Terms: https://video2gifapp.com/terms.html
+
+Last updated: 2026-10-21

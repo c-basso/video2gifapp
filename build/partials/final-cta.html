@@ -1,0 +1,25 @@
+      <section class="final-cta" id="get-the-app" aria-labelledby="cta-heading">
+        <div class="final-cta-inner">
+          <div class="final-cta-copy">
+            <h2 id="cta-heading">{{cta.title}}</h2>
+            <p class="final-cta-text">{{cta.text}}</p>
+            <div class="final-cta-actions">
+{{> appstore-button}}
+              <figure class="final-cta-qr">
+                <img src="/img/app-store-qr.png" alt="{{download.qr_alt}}" width="72" height="72" loading="lazy" decoding="async" />
+                <figcaption>{{download.qr_label}}</figcaption>
+              </figure>
+            </div>
+            <ul class="final-cta-facts">
+              {{#each cta.facts as |item|}}
+              <li>{{item}}</li>
+              {{/each}}
+            </ul>
+          </div>
+          <div class="final-cta-visual" aria-hidden="true">
+            <img class="cta-shot cta-shot-left" src="{{meta.screenshot_base}}1.webp" alt="" width="460" height="995" loading="lazy" decoding="async" />
+            <img class="cta-shot cta-shot-right" src="{{meta.screenshot_base}}3.webp" alt="" width="460" height="995" loading="lazy" decoding="async" />
+            <img class="cta-shot cta-shot-center" src="{{meta.screenshot_base}}2.webp" alt="" width="460" height="995" loading="lazy" decoding="async" />
+          </div>
+        </div>
+      </section>

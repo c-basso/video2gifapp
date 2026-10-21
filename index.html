@@ -1,1 +1,609 @@
-<h1>video2gifapp</h1>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover"
+    />
+    <title>Make Video to GIF – Turn Any Clip into a GIF on iPhone</title>
+    <meta
+      name="description"
+      content="Make a GIF from any video on iPhone: trim the moment, set FPS, crop and loop count, check the file size, then export on device. Free app, no website upload."
+    />
+    <!-- App Store Smart App Banner -->
+    <meta name="apple-itunes-app" content="app-id=6762465120" />
+    <!-- Core SEO -->
+    <meta name="keywords" content="video to gif, make gif iphone, video to gif iphone, gif from video, gif maker app, screen recording to gif, reduce gif size, gif for discord, live photo to gif" />
+    <meta name="author" content="c-basso" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="bingbot" content="index, follow" />
+    <link rel="canonical" href="https://video2gifapp.com/" />
+    <link
+      rel="alternate"
+      type="text/plain"
+      href="/llms.txt"
+      title="LLM / AI summary of this site"
+    />
+
+    <!-- Alternate Language Links -->
+    
+    <link rel="alternate" hreflang="en" href="https://video2gifapp.com/" />
+    
+    <link rel="alternate" hreflang="x-default" href="https://video2gifapp.com/" />
+
+    <!-- PWA & Theming -->
+    <meta name="theme-color" content="#17122b" />
+    <meta name="msapplication-TileColor" content="#17122b" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Make Video to GIF – Turn Clips into Loops on iPhone" />
+    <meta property="og:description" content="Trim a clip, tune FPS, crop, loop count and encoder, and export a small, shareable GIF on your iPhone. The GIF is made on the device." />
+    <meta property="og:image" content="https://video2gifapp.com/site_preview.png" />
+    <meta property="og:image:alt" content="Make Video to GIF on iPhone: GIF settings with a Convert to GIF button and an estimated file size" />
+    <meta property="og:image:width" content="1026" />
+    <meta property="og:image:height" content="539" />
+    <meta property="og:logo" content="https://video2gifapp.com/img/logo.webp" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://video2gifapp.com/" />
+    <meta property="og:site_name" content="Make Video to GIF" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://video2gifapp.com/" />
+    <meta name="twitter:title" content="Make Video to GIF – Turn Clips into Loops on iPhone" />
+    <meta name="twitter:description" content="Trim a clip, tune FPS, crop, loop count and encoder, and export a small, shareable GIF on your iPhone. The GIF is made on the device." />
+    <meta name="twitter:image" content="https://video2gifapp.com/site_preview.png" />
+    <meta name="twitter:image:width" content="1026" />
+    <meta name="twitter:image:height" content="539" />
+
+    <link rel="preconnect" href="https://apps.apple.com" />
+    <link rel="dns-prefetch" href="https://apps.apple.com" />
+    <link rel="preload" href="/fonts/pixelify-sans-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/onest-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="/img/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
+    <link rel="mask-icon" href="/img/favicon.svg" color="#17122b" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/img/web-app-manifest-192x192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/img/web-app-manifest-512x512.png" />
+    <!-- Application Name -->
+    <meta name="application-name" content="Make Video to GIF – Turn clips into loops" />
+
+    <link
+      rel="stylesheet"
+      href="/style.css?v=1792604584193"
+    />
+    <script>document.documentElement.classList.add('js');</script>
+    <!-- dev-links: on localhost / LAN dev servers, point absolute site links at the local copy (no effect in production) -->
+    <script>
+      (function () {
+        var h = location.hostname;
+        var isDev = h === 'localhost' || h === '127.0.0.1' || h === '[::1]' || h === '0.0.0.0' ||
+          /\.(local|localhost|test)$/.test(h) || /^(10|192\.168|172\.(1[6-9]|2\d|3[01]))\./.test(h);
+        if (!isDev) return;
+        var SITE = 'https://video2gifapp.com';
+        var sel = 'a[href^="' + SITE + '"]';
+        function fix(root) {
+          root.querySelectorAll(sel).forEach(function (a) {
+            a.setAttribute('href', a.getAttribute('href').slice(SITE.length) || '/');
+          });
+        }
+        document.addEventListener('DOMContentLoaded', function () { fix(document); });
+        document.addEventListener('click', function (e) {
+          var a = e.target.closest && e.target.closest(sel);
+          if (a) a.setAttribute('href', a.getAttribute('href').slice(SITE.length) || '/');
+        }, true);
+      })();
+    </script>
+
+  </head>
+  <body class="page-home">
+      <header class="site-header">
+        <a class="brand" href="https://video2gifapp.com/">
+          <img class="brand-icon" src="/img/logo.webp" alt="" width="40" height="40" loading="eager" decoding="async" />
+          <span class="brand-name">Make Video to GIF</span>
+        </a>
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+          <a href="https://video2gifapp.com/#screenshots">Screenshots</a>
+          <a href="https://video2gifapp.com/#how-it-works">How it works</a>
+          <a href="https://video2gifapp.com/guides/">Guides</a>
+          <a href="https://video2gifapp.com/#faq">FAQ</a>
+          <a class="nav-store" href="https://apps.apple.com/app/id6762465120" target="_blank" rel="noopener noreferrer">Download on the App Store</a>
+        </nav>
+        <a class="header-cta" href="https://apps.apple.com/app/id6762465120" target="_blank" rel="noopener noreferrer" aria-label="Download Make Video to GIF on the App Store">
+          <svg width="14" height="17" viewBox="14 8 14 26" aria-hidden="true"><path fill="currentColor" d="M24.99671,19.88935a5.14625,5.14625,0,0,1,2.45058-4.31771,5.26776,5.26776,0,0,0-4.15039-2.24376c-1.74624-.1833-3.43913,1.04492-4.329,1.04492-.90707,0-2.27713-1.02672-3.75247-.99637a5.52735,5.52735,0,0,0-4.65137,2.8367c-2.01111,3.482-.511,8.59939,1.41551,11.414.96388,1.37823,2.09037,2.91774,3.56438,2.86315,1.4424-.05983,1.98111-.91977,3.7222-.91977,1.72494,0,2.23035.91977,3.73427.88506,1.54777-.02512,2.52292-1.38435,3.453-2.77563a11.39931,11.39931,0,0,0,1.579-3.21589A4.97284,4.97284,0,0,1,24.99671,19.88935Z"/><path fill="currentColor" d="M22.15611,11.47681a5.06687,5.06687,0,0,0,1.159-3.62989,5.15524,5.15524,0,0,0-3.33555,1.72582,4.82131,4.82131,0,0,0-1.18934,3.4955A4.26259,4.26259,0,0,0,22.15611,11.47681Z"/></svg>
+          <span>App Store</span>
+        </a>
+        <button type="button" class="nav-toggle" aria-controls="site-nav" aria-expanded="false" aria-label="Menu">
+          <span class="nav-toggle-bars" aria-hidden="true"></span>
+        </button>
+      </header>
+
+
+    <main id="main">
+      <!-- HERO: a real pixel GIF playing at the FPS you pick is the page's one loud moment -->
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <h1 id="hero-heading"><span class="hero-line">Turn clips</span> <span class="hero-line">into loops.</span></h1>
+            <p class="hero-sub">Make Video to GIF is an iPhone app that turns a video, screen recording or camera clip into an animated GIF. Trim it to the moment, crop it, set the frame rate and loop, see how big the file will be, then share it anywhere.</p>
+            <div class="hero-actions">
+              <a
+                class="store-button"
+                href="https://apps.apple.com/app/id6762465120"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Download Make Video to GIF on the App Store"
+              >
+                <svg
+                  class="store-button-icon"
+                  width="20"
+                  height="24"
+                  viewBox="14 8 14 26"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M24.99671,19.88935a5.14625,5.14625,0,0,1,2.45058-4.31771,5.26776,5.26776,0,0,0-4.15039-2.24376c-1.74624-.1833-3.43913,1.04492-4.329,1.04492-.90707,0-2.27713-1.02672-3.75247-.99637a5.52735,5.52735,0,0,0-4.65137,2.8367c-2.01111,3.482-.511,8.59939,1.41551,11.414.96388,1.37823,2.09037,2.91774,3.56438,2.86315,1.4424-.05983,1.98111-.91977,3.7222-.91977,1.72494,0,2.23035.91977,3.73427.88506,1.54777-.02512,2.52292-1.38435,3.453-2.77563a11.39931,11.39931,0,0,0,1.579-3.21589A4.97284,4.97284,0,0,1,24.99671,19.88935Z"
+                  />
+                  <path
+                    fill="currentColor"
+                    d="M22.15611,11.47681a5.06687,5.06687,0,0,0,1.159-3.62989,5.15524,5.15524,0,0,0-3.33555,1.72582,4.82131,4.82131,0,0,0-1.18934,3.4955A4.26259,4.26259,0,0,0,22.15611,11.47681Z"
+                  />
+                </svg>
+                <span>Download on the App Store</span>
+              </a>
+
+              <a class="hero-link" href="#how-it-works">See how it works</a>
+            </div>
+            
+            <p class="hero-intent"><a href="https://video2gifapp.com/guides/make-a-gif-from-a-video-on-iphone/">Step by step: make a GIF from a video on iPhone</a></p>
+            
+          </div>
+
+          <figure class="player" aria-label="Demo GIF player: pick a frame rate to see how smooth the loop plays and how big the file gets">
+            <div class="player-screen">
+              <div class="player-sprite" id="gifSprite" role="img" aria-label="Pixel-art GIF of a white cat bobbing its head and blinking, looping"></div>
+              <span class="player-badge">GIF</span>
+            </div>
+            <div class="player-controls">
+              <p class="player-readout">
+                <span>Frame</span>
+                <output id="gifFrame">1 / 8</output>
+              </p>
+              <div class="player-fps">
+                <span id="gifFpsLabel">Frame rate</span>
+                <div class="fps-switch" role="radiogroup" aria-labelledby="gifFpsLabel">
+                  
+                  <button type="button" role="radio" class="fps-option" data-fps="8" aria-checked="false">8</button>
+                  
+                  <button type="button" role="radio" class="fps-option" data-fps="12" aria-checked="false">12</button>
+                  
+                  <button type="button" role="radio" class="fps-option" data-fps="24" aria-checked="false">24</button>
+                  
+                </div>
+              </div>
+              <p class="player-readout player-size" aria-live="polite" data-default-fps="12">
+                <span>File size</span>
+                <output id="gifSize">2.0 MB</output>
+              </p>
+            </div>
+            <figcaption>Same 8-frame loop at three frame rates. Sizes are an illustration for a 3-second, 480 px clip; the app shows the real estimate before you export.</figcaption>
+          </figure>
+        </div>
+
+        <div class="timeline" aria-hidden="true">
+          <div class="timeline-track" id="gifTimeline">
+            <span style="--i: 0"></span><span style="--i: 1"></span><span style="--i: 2"></span><span style="--i: 3"></span><span style="--i: 4"></span><span style="--i: 5"></span><span style="--i: 6"></span><span style="--i: 7"></span>
+            <i class="timeline-trim"></i>
+            <i class="timeline-playhead"></i>
+          </div>
+          <p class="timeline-meta"><span>Trimmed to</span> 0:05 – 0:08</p>
+        </div>
+      </section>
+
+      <!-- SUMMARY -->
+      <aside class="summary" aria-label="What this app is">
+        <p class="summary-lead">Summary: Make Video to GIF is an iPhone app that converts short videos into animated GIF files. You trim the clip, crop it, set frames per second, loop count and encoder, and export a standard GIF.</p>
+        <p>Published on the Apple App Store by Vladimir Ivakhnenko (c-basso) in the Photo & Video and Productivity categories. The GIF is encoded on the iPhone, so the video is not uploaded to a website, and the finished file goes to the iOS share sheet: Messages, Mail, AirDrop, Photos, Discord, Slack, Telegram or WhatsApp.</p>
+      </aside>
+
+      <!-- DOWNLOAD -->
+      <section class="block download" id="download" aria-labelledby="download-heading">
+        <div class="download-card">
+          <div class="download-main">
+            <img class="download-icon" src="/img/app-icon.webp" alt="Make Video to GIF app icon" width="120" height="120" loading="lazy" decoding="async" />
+            <h2 id="download-heading">Get Make Video to GIF on the App Store</h2>
+            <p class="download-sub">Turn clips into loops. Photo & Video app for iPhone.</p>
+            <p class="download-price"><strong>Free</strong>, optional in-app purchases</p>
+            <div class="download-actions">
+              <a
+                class="store-button"
+                href="https://apps.apple.com/app/id6762465120"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Download Make Video to GIF on the App Store"
+              >
+                <svg
+                  class="store-button-icon"
+                  width="20"
+                  height="24"
+                  viewBox="14 8 14 26"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M24.99671,19.88935a5.14625,5.14625,0,0,1,2.45058-4.31771,5.26776,5.26776,0,0,0-4.15039-2.24376c-1.74624-.1833-3.43913,1.04492-4.329,1.04492-.90707,0-2.27713-1.02672-3.75247-.99637a5.52735,5.52735,0,0,0-4.65137,2.8367c-2.01111,3.482-.511,8.59939,1.41551,11.414.96388,1.37823,2.09037,2.91774,3.56438,2.86315,1.4424-.05983,1.98111-.91977,3.7222-.91977,1.72494,0,2.23035.91977,3.73427.88506,1.54777-.02512,2.52292-1.38435,3.453-2.77563a11.39931,11.39931,0,0,0,1.579-3.21589A4.97284,4.97284,0,0,1,24.99671,19.88935Z"
+                  />
+                  <path
+                    fill="currentColor"
+                    d="M22.15611,11.47681a5.06687,5.06687,0,0,0,1.159-3.62989,5.15524,5.15524,0,0,0-3.33555,1.72582,4.82131,4.82131,0,0,0-1.18934,3.4955A4.26259,4.26259,0,0,0,22.15611,11.47681Z"
+                  />
+                </svg>
+                <span>Download on the App Store</span>
+              </a>
+
+              <figure class="qr">
+                <img src="/img/app-store-qr.png" alt="QR code linking to Make Video to GIF on the App Store" width="96" height="96" loading="lazy" decoding="async" />
+                <figcaption>Scan with your iPhone camera</figcaption>
+              </figure>
+            </div>
+            <p class="download-req">Requires iOS 18.6 or later. 28.6 MB. English and 30 more languages. Rated 4+.</p>
+          </div>
+          <div class="download-facts">
+            <h3>At a glance</h3>
+            <dl class="facts">
+              
+              <div><dt>3 steps</dt><dd>Pick a clip; trim and adjust the GIF settings; convert and share.</dd></div>
+              
+              <div><dt>5 controls</dt><dd>Trim, crop with aspect presets, frames per second, loop count, encoder mode.</dd></div>
+              
+              <div><dt>On device</dt><dd>The GIF is made on your iPhone; export goes through the iOS share sheet.</dd></div>
+              
+              <div><dt>iOS 18.6+</dt><dd>iPhone app, 28.6 MB download.</dd></div>
+              
+              <div><dt>31 languages</dt><dd>The app is localized into English and 30 more languages.</dd></div>
+              
+              <div><dt>Free</dt><dd>Free download with optional in-app purchases, rated 4+.</dd></div>
+              
+            </dl>
+            <p class="download-note">For reaction loops, memes, UI bug reports, product demos and tutorial moments: anything that says more as a short loop than as a full video.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SCREENSHOTS: the four App Store screens in the order you use them, laid on a timeline -->
+      <section class="block tools" id="screenshots" aria-labelledby="tools-heading">
+        <div class="block-head">
+          <h2 id="tools-heading">From clip to GIF in four screens</h2>
+          <p>The same screens you will see on the App Store, in the order you use them.</p>
+        </div>
+        <ol class="reel" aria-label="App screenshots, scroll horizontally" tabindex="0">
+          
+          <li class="reel-frame">
+            <img class="reel-shot" src="/img/screenshots/1.webp" alt="Make Video to GIF App Store screenshot with a video icon turning into a GIF icon and the headline Video to GIF" width="460" height="995" loading="lazy" decoding="async" />
+            <h3 class="reel-name">Pick any clip</h3>
+            <p class="reel-text">Import a video from your library, or send one movie from Photos, Files or another app through the Share menu. Screen recordings work too.</p>
+          </li>
+          
+          <li class="reel-frame">
+            <img class="reel-shot" src="/img/screenshots/3.webp" alt="Trim screen with a frame strip of a white cat video, a 0:05 to 0:13 selection and a Save button" width="460" height="995" loading="lazy" decoding="async" />
+            <h3 class="reel-name">Trim to the moment</h3>
+            <p class="reel-text">Drag the handles on the frame strip to keep only the seconds you need. Shorter clips make smaller, faster-loading GIFs.</p>
+          </li>
+          
+          <li class="reel-frame">
+            <img class="reel-shot" src="/img/screenshots/2.webp" alt="Video preview with Edit Video and GIF settings buttons, a Convert to GIF button and an estimated file size of 4.8 MB" width="460" height="995" loading="lazy" decoding="async" />
+            <h3 class="reel-name">Tune the GIF</h3>
+            <p class="reel-text">Open GIF settings to set frames per second, crop, loop count and encoder. The estimated file size updates before you tap Convert to GIF.</p>
+          </li>
+          
+          <li class="reel-frame">
+            <img class="reel-shot" src="/img/screenshots/4.webp" alt="Creating GIF progress at 34 percent with a Cancel button" width="460" height="995" loading="lazy" decoding="async" />
+            <h3 class="reel-name">Export and share</h3>
+            <p class="reel-text">The GIF is created on your iPhone with a progress indicator you can cancel. Then send it from the share sheet or save it to Photos.</p>
+          </li>
+          
+        </ol>
+      </section>
+
+      <!-- HOW IT WORKS: a real sequence, so it is numbered -->
+      <section class="block how" id="how-it-works" aria-labelledby="how-heading">
+        <div class="block-head">
+          <h2 id="how-heading">Three steps from video to GIF</h2>
+          <p>Make Video to GIF focuses on the few controls that decide how a GIF looks and how big it is: the seconds you keep, the crop, the frame rate, the loop and the encoder.</p>
+        </div>
+        <ol class="steps">
+          <li><span class="step-n">1</span><p>Pick a video from your library, or share one movie into the app from Photos, Files or another app.</p></li>
+          <li><span class="step-n">2</span><p>Trim to the seconds you need and crop with an aspect preset. Then set FPS, loop count and encoder in GIF settings.</p></li>
+          <li><span class="step-n">3</span><p>Tap Convert to GIF, then share the file to Messages, Mail, AirDrop, Discord or Slack, or save it to Photos.</p></li>
+        </ol>
+        <p class="steps-note">Short clips with clear motion look best. For a smaller file, trim harder, crop tighter and lower the frame rate.</p>
+
+        <div class="how-grid">
+          <div class="audience">
+            <h3>Made for anyone who would rather send a loop than a video.</h3>
+            <ul>
+              <li>Chatters and meme makers turning a funny second into a reaction GIF.</li>
+              <li>Discord, Reddit and forum members who need a GIF under an upload limit.</li>
+              <li>Developers and designers sharing a UI flow or a reproducible bug as a GIF.</li>
+              <li>Students and teachers clipping a tutorial moment for a class thread.</li>
+            </ul>
+          </div>
+          <div class="compare">
+            <h3>Shortcuts vs an online converter vs Make Video to GIF</h3>
+            <p>Three common ways to turn a video into a GIF on iPhone, and what each one lets you control.</p>
+            <div class="table-wrap">
+              <table class="scoreboard">
+                <thead>
+                  <tr>
+                    <th scope="col">Topic</th>
+                    <th scope="col">Shortcuts app</th>
+                    <th scope="col">Online converter</th>
+                    <th scope="col" class="col-app">Make Video to GIF</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  
+                  <tr>
+                    <th scope="row">Where the video goes</th>
+                    <td data-label="Shortcuts app">Stays on the iPhone.</td>
+                    <td data-label="Online converter">Uploaded to the converter's server.</td>
+                    <td class="col-app" data-label="Make Video to GIF">Stays on the iPhone; the GIF is encoded on the device.</td>
+                  </tr>
+                  
+                  <tr>
+                    <th scope="row">Choosing the moment</th>
+                    <td data-label="Shortcuts app">A basic trim before saving.</td>
+                    <td data-label="Online converter">Start and end fields or sliders in a browser tab.</td>
+                    <td class="col-app" data-label="Make Video to GIF">Timeline trim with a frame strip.</td>
+                  </tr>
+                  
+                  <tr>
+                    <th scope="row">File size control</th>
+                    <td data-label="Shortcuts app">Mostly fixed; changing it means editing the shortcut's actions.</td>
+                    <td data-label="Online converter">Depends on the site; often size or quality sliders.</td>
+                    <td class="col-app" data-label="Make Video to GIF">FPS, crop, encoder and loop settings, with an estimated size before export.</td>
+                  </tr>
+                  
+                  <tr>
+                    <th scope="row">Starting from another app</th>
+                    <td data-label="Shortcuts app">Run the shortcut, then pick the video.</td>
+                    <td data-label="Online converter">Save the video, open the site, upload.</td>
+                    <td class="col-app" data-label="Make Video to GIF">Share one movie from Photos or Files straight into the app.</td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- GUIDES -->
+      
+      <section class="block guides" id="guides" aria-labelledby="guides-heading">
+        <div class="block-head block-head-row">
+          <div>
+            <h2 id="guides-heading">Guides for making GIFs on iPhone</h2>
+            <p>Step-by-step help for the moments people need a GIF: from a video, from a screen recording, for Discord or Slack, and smaller files.</p>
+          </div>
+          <a class="pill-link" href="https://video2gifapp.com/guides/">See all guides</a>
+        </div>
+        <ul class="guide-list">
+          
+          <li>
+            <a href="https://video2gifapp.com/guides/make-a-gif-from-a-video-on-iphone/">
+              <span class="guide-tag">Video to GIF</span>
+              <span class="guide-title">Make a GIF from a video on iPhone</span>
+              <span class="guide-summary">Two ways to turn a clip into a GIF: the built-in shortcut, or an app with trim, FPS, crop and loop controls.</span>
+            </a>
+          </li>
+          
+        </ul>
+      </section>
+      
+
+      <!-- FAQ -->
+      <section class="block faq" id="faq" aria-labelledby="faq-heading">
+        <div class="block-head">
+          <h2 id="faq-heading">Frequently asked questions</h2>
+          <p>Short answers first. The full walkthrough is in the guides.</p>
+        </div>
+        <div class="faq-list">
+          
+          <article class="faq-item">
+            <h3 class="faq-q">How do I make a GIF from a video on iPhone?</h3>
+            <p class="faq-a">Open Make Video to GIF, pick the video, trim it to the seconds you want, set FPS, crop and loop count in GIF settings, and tap Convert to GIF. Then share the file or save it to Photos. Without an app, the free Video to GIF shortcut in the Shortcuts app does a basic version.</p>
+            
+            <a class="faq-more" href="https://video2gifapp.com/guides/make-a-gif-from-a-video-on-iphone/" title="How to make a GIF from a video on iPhone">Read the full guide</a>
+            
+          </article>
+          
+          <article class="faq-item">
+            <h3 class="faq-q">Is my video uploaded anywhere?</h3>
+            <p class="faq-a">No upload is needed. The GIF is encoded on your iPhone and the finished file goes to the iOS share sheet. Online converters, by contrast, upload the video to their server.</p>
+            
+          </article>
+          
+          <article class="faq-item">
+            <h3 class="faq-q">How do I make a GIF smaller?</h3>
+            <p class="faq-a">Keep fewer seconds, crop to the part that moves, lower the frames per second (10 to 15 is plenty for most reactions) and pick the encoder mode that favours file size. The app shows an estimated size before you export.</p>
+            
+          </article>
+          
+          <article class="faq-item">
+            <h3 class="faq-q">Can I turn a screen recording into a GIF?</h3>
+            <p class="faq-a">Yes. A screen recording is saved as a normal video in Photos, so you can pick it, trim it to the interaction and export a GIF for a bug report, a Slack thread or a tutorial.</p>
+            
+          </article>
+          
+          <article class="faq-item">
+            <h3 class="faq-q">Can the GIF loop forever or play only once?</h3>
+            <p class="faq-a">Both. Loop count is a GIF setting: choose an infinite loop for reactions, or a fixed number of plays for a demo.</p>
+            
+          </article>
+          
+          <article class="faq-item">
+            <h3 class="faq-q">Why does my GIF look grainy or blocky?</h3>
+            <p class="faq-a">GIF can only use 256 colors per frame, so gradients and dark footage band. Try the encoder mode that favours palette detail, crop tighter and keep the clip short; very long, high-FPS clips trade quality for size.</p>
+            
+          </article>
+          
+          <article class="faq-item">
+            <h3 class="faq-q">Is Make Video to GIF free, and which devices does it run on?</h3>
+            <p class="faq-a">The download is free with optional in-app purchases, including a subscription with a free trial. It requires iOS 18.6 or later on iPhone. There is no Android version.</p>
+            
+            <a class="faq-more" href="https://apps.apple.com/app/id6762465120" title="Make Video to GIF on the App Store: price, devices and screenshots">Read the full guide</a>
+            
+          </article>
+          
+        </div>
+      </section>
+
+      <section class="final-cta" id="get-the-app" aria-labelledby="cta-heading">
+        <div class="final-cta-inner">
+          <div class="final-cta-copy">
+            <h2 id="cta-heading">Send the loop, not the video.</h2>
+            <p class="final-cta-text">Pick a clip, trim it to the best second, and share a GIF that plays everywhere.</p>
+            <div class="final-cta-actions">
+              <a
+                class="store-button"
+                href="https://apps.apple.com/app/id6762465120"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Download Make Video to GIF on the App Store"
+              >
+                <svg
+                  class="store-button-icon"
+                  width="20"
+                  height="24"
+                  viewBox="14 8 14 26"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M24.99671,19.88935a5.14625,5.14625,0,0,1,2.45058-4.31771,5.26776,5.26776,0,0,0-4.15039-2.24376c-1.74624-.1833-3.43913,1.04492-4.329,1.04492-.90707,0-2.27713-1.02672-3.75247-.99637a5.52735,5.52735,0,0,0-4.65137,2.8367c-2.01111,3.482-.511,8.59939,1.41551,11.414.96388,1.37823,2.09037,2.91774,3.56438,2.86315,1.4424-.05983,1.98111-.91977,3.7222-.91977,1.72494,0,2.23035.91977,3.73427.88506,1.54777-.02512,2.52292-1.38435,3.453-2.77563a11.39931,11.39931,0,0,0,1.579-3.21589A4.97284,4.97284,0,0,1,24.99671,19.88935Z"
+                  />
+                  <path
+                    fill="currentColor"
+                    d="M22.15611,11.47681a5.06687,5.06687,0,0,0,1.159-3.62989,5.15524,5.15524,0,0,0-3.33555,1.72582,4.82131,4.82131,0,0,0-1.18934,3.4955A4.26259,4.26259,0,0,0,22.15611,11.47681Z"
+                  />
+                </svg>
+                <span>Download on the App Store</span>
+              </a>
+
+              <figure class="final-cta-qr">
+                <img src="/img/app-store-qr.png" alt="QR code linking to Make Video to GIF on the App Store" width="72" height="72" loading="lazy" decoding="async" />
+                <figcaption>Scan with your iPhone camera</figcaption>
+              </figure>
+            </div>
+            <ul class="final-cta-facts">
+              
+              <li>Free download</li>
+              
+              <li>iOS 18.6 or later</li>
+              
+              <li>GIF made on your iPhone</li>
+              
+            </ul>
+          </div>
+          <div class="final-cta-visual" aria-hidden="true">
+            <img class="cta-shot cta-shot-left" src="/img/screenshots/1.webp" alt="" width="460" height="995" loading="lazy" decoding="async" />
+            <img class="cta-shot cta-shot-right" src="/img/screenshots/3.webp" alt="" width="460" height="995" loading="lazy" decoding="async" />
+            <img class="cta-shot cta-shot-center" src="/img/screenshots/2.webp" alt="" width="460" height="995" loading="lazy" decoding="async" />
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+      <footer class="site-footer">
+        <div class="footer-inner">
+          <div class="footer-brand">
+            <a class="footer-logo" href="https://video2gifapp.com/">
+              <img src="/img/logo.webp" alt="" width="44" height="44" loading="lazy" decoding="async" />
+              <span>Make Video to GIF</span>
+            </a>
+            <p class="footer-tagline">A video to GIF converter for iPhone: trim, crop, frame rate, loop count and encoder, exported on the device.</p>
+            <a class="footer-store" href="https://apps.apple.com/app/id6762465120" target="_blank" rel="noopener noreferrer" aria-label="Download Make Video to GIF on the App Store">
+              <svg width="15" height="18" viewBox="14 8 14 26" aria-hidden="true"><path fill="currentColor" d="M24.99671,19.88935a5.14625,5.14625,0,0,1,2.45058-4.31771,5.26776,5.26776,0,0,0-4.15039-2.24376c-1.74624-.1833-3.43913,1.04492-4.329,1.04492-.90707,0-2.27713-1.02672-3.75247-.99637a5.52735,5.52735,0,0,0-4.65137,2.8367c-2.01111,3.482-.511,8.59939,1.41551,11.414.96388,1.37823,2.09037,2.91774,3.56438,2.86315,1.4424-.05983,1.98111-.91977,3.7222-.91977,1.72494,0,2.23035.91977,3.73427.88506,1.54777-.02512,2.52292-1.38435,3.453-2.77563a11.39931,11.39931,0,0,0,1.579-3.21589A4.97284,4.97284,0,0,1,24.99671,19.88935Z"/><path fill="currentColor" d="M22.15611,11.47681a5.06687,5.06687,0,0,0,1.159-3.62989,5.15524,5.15524,0,0,0-3.33555,1.72582,4.82131,4.82131,0,0,0-1.18934,3.4955A4.26259,4.26259,0,0,0,22.15611,11.47681Z"/></svg>
+              <span>Download on the App Store</span>
+            </a>
+          </div>
+
+          <nav class="footer-col" aria-label="App">
+            <p class="footer-col-title">App</p>
+            <ul>
+              <li><a href="https://video2gifapp.com/#screenshots">Screenshots</a></li>
+              <li><a href="https://video2gifapp.com/#how-it-works">How it works</a></li>
+              <li><a href="https://video2gifapp.com/#faq">FAQ</a></li>
+              <li><a href="https://apps.apple.com/app/id6762465120" target="_blank" rel="noopener noreferrer">App Store listing</a></li>
+            </ul>
+          </nav>
+
+          
+          <nav class="footer-col footer-col-guides" aria-label="Popular guides">
+            <p class="footer-col-title">Popular guides</p>
+            <ul>
+              
+              <li><a href="https://video2gifapp.com/guides/make-a-gif-from-a-video-on-iphone/">Make a GIF from a video on iPhone</a></li>
+              
+              <li><a class="footer-all" href="https://video2gifapp.com/guides/">All guides</a></li>
+            </ul>
+          </nav>
+          
+
+          <nav class="footer-col" aria-label="Legal">
+            <p class="footer-col-title">Legal</p>
+            <ul>
+              <li><a href="/privacy.html">Privacy Policy</a></li>
+              <li><a href="/terms.html">Terms of Use</a></li>
+              <li><a href="https://apps.apple.com/developer/id1239180595" target="_blank" rel="noopener noreferrer">More apps by c-basso</a></li>
+            </ul>
+          </nav>
+
+          
+        </div>
+        <div class="footer-bottom">
+          <p>© 2026 c-basso, makers of Make Video to GIF</p>
+          <p>Updated <time datetime="2026-10-21">October 21, 2026</time></p>
+        </div>
+      </footer>
+
+
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"MobileApplication","name":"Make Video to GIF","operatingSystem":"iOS 18.6 or later","applicationCategory":"MultimediaApplication","applicationSubCategory":"Video to GIF converter","offers":{"@type":"Offer","price":"0","priceCurrency":"USD","category":"free","url":"https://apps.apple.com/app/id6762465120"},"author":{"@type":"Person","name":"Vladimir Ivakhnenko"},"inLanguage":["en","hr","cs","da","nl","fi","fr","de","el","he","hu","id","it","ja","ko","ms","nb","pl","pt","ro","ru","zh-Hans","zh-Hant","sk","es","sv","th","tr","uk","vi","fil"],"featureList":["Trim the video timeline to the exact moment","Crop with aspect presets","Frames per second control","Loop count, including infinite loop","Encoder modes: smaller file or more palette detail","Estimated file size before export","On-device GIF encoding with progress and cancel","Share extension: send a movie from Photos or Files","Reopen projects and export again"],"description":"iPhone app that turns short videos, screen recordings and camera clips into animated GIFs, with trim, crop, frame rate, loop count and encoder controls.","url":"https://video2gifapp.com/","downloadUrl":"https://apps.apple.com/app/id6762465120","dateModified":"2026-10-21","image":"https://video2gifapp.com/img/logo.webp","screenshot":"https://video2gifapp.com/img/screenshots/1.webp"}
+    </script>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"Organization","name":"c-basso","url":"https://video2gifapp.com/","logo":"https://video2gifapp.com/img/logo.webp","description":"Independent publisher (Vladimir Ivakhnenko) of Make Video to GIF and related iOS utilities.","sameAs":["https://x.com/c__basso","https://apps.apple.com/developer/id1239180595"]}
+    </script>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"WebSite","name":"Make Video to GIF","url":"https://video2gifapp.com/","description":"Make a GIF from any video on iPhone: trim the moment, set FPS, crop and loop count, check the file size, then export on device. Free app, no website upload.","inLanguage":"en"}
+    </script>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"HowTo","name":"How to make a GIF from a video on iPhone with Make Video to GIF","description":"Pick a video, trim it, set the GIF options and export the GIF on your iPhone.","totalTime":"PT1M","tool":[{"@type":"HowToTool","name":"Make Video to GIF app for iPhone"}],"step":[{"@type":"HowToStep","name":"Pick a video","text":"Open Make Video to GIF and choose a video from your library, or share one movie into the app from Photos or Files.","url":"https://apps.apple.com/app/id6762465120"},{"@type":"HowToStep","name":"Trim and adjust","text":"Trim to the seconds you need, crop, and set frames per second, loop count and encoder in GIF settings."},{"@type":"HowToStep","name":"Convert and share","text":"Tap Convert to GIF, then send the GIF from the share sheet or save it to Photos."}]}
+    </script>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do I make a GIF from a video on iPhone?","acceptedAnswer":{"@type":"Answer","text":"Open Make Video to GIF, pick the video, trim it to the seconds you want, set FPS, crop and loop count in GIF settings, and tap Convert to GIF. Then share the file or save it to Photos. Without an app, the free Video to GIF shortcut in the Shortcuts app does a basic version."}},{"@type":"Question","name":"Is my video uploaded anywhere?","acceptedAnswer":{"@type":"Answer","text":"No upload is needed. The GIF is encoded on your iPhone and the finished file goes to the iOS share sheet. Online converters, by contrast, upload the video to their server."}},{"@type":"Question","name":"How do I make a GIF smaller?","acceptedAnswer":{"@type":"Answer","text":"Keep fewer seconds, crop to the part that moves, lower the frames per second (10 to 15 is plenty for most reactions) and pick the encoder mode that favours file size. The app shows an estimated size before you export."}},{"@type":"Question","name":"Can I turn a screen recording into a GIF?","acceptedAnswer":{"@type":"Answer","text":"Yes. A screen recording is saved as a normal video in Photos, so you can pick it, trim it to the interaction and export a GIF for a bug report, a Slack thread or a tutorial."}},{"@type":"Question","name":"Can the GIF loop forever or play only once?","acceptedAnswer":{"@type":"Answer","text":"Both. Loop count is a GIF setting: choose an infinite loop for reactions, or a fixed number of plays for a demo."}},{"@type":"Question","name":"Why does my GIF look grainy or blocky?","acceptedAnswer":{"@type":"Answer","text":"GIF can only use 256 colors per frame, so gradients and dark footage band. Try the encoder mode that favours palette detail, crop tighter and keep the clip short; very long, high-FPS clips trade quality for size."}},{"@type":"Question","name":"Is Make Video to GIF free, and which devices does it run on?","acceptedAnswer":{"@type":"Answer","text":"The download is free with optional in-app purchases, including a subscription with a free trial. It requires iOS 18.6 or later on iPhone. There is no Android version."}}]}
+    </script>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"WebPage","name":"Make Video to GIF – Turn Any Clip into a GIF on iPhone","url":"https://video2gifapp.com/","description":"Make a GIF from any video on iPhone: trim the moment, set FPS, crop and loop count, check the file size, then export on device. Free app, no website upload.","dateModified":"2026-10-21","inLanguage":"en"}
+    </script>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://video2gifapp.com/"}]}
+    </script>
+
+    <script src="/site.js?v=1792604584193" defer></script>
+<!-- Analytics: paste the counter snippet for video2gifapp.com here. Empty = no analytics. -->
+
+  </body>
+</html>
