@@ -98,16 +98,35 @@ Product decision: no online converter on the site (it would satisfy the search w
 install). Head terms ("video to gif", "gif from video", "compress gif") are therefore not
 targeted directly; the site targets iPhone-specific queries where the app is the answer.
 
-### Guide plan (priority order)
+### Published guides (priority order = footer and hub order)
 
-1. `make-a-gif-from-a-video-on-iphone` — make gif iphone, video to gif iphone (published)
-2. reduce / compress GIF size on iPhone
-3. GIF for Discord from iPhone (size limits)
-4. GIF not working / not moving on iPhone (fix guide)
-5. best GIF maker app for iPhone (honest comparison incl. Shortcuts and GIPHY)
-6. Live Photo to GIF
-7. screen recording to GIF (bug reports, Slack, GitHub README)
-8. make a GIF loop forever / play once
+Search-engine autocomplete could not be collected this round (blocked), so clusters come from the
+Trends table above plus SERP checks. Each guide targets one iPhone-specific cluster, shows the
+free built-in route honestly, and recommends the app only where its controls solve the problem.
+
+| # | Slug | Primary keyword | Cluster |
+|---|---|---|---|
+| 1 | make-a-gif-from-a-video-on-iphone | make gif iphone | video to gif iphone, turn video into gif iphone |
+| 2 | reduce-gif-file-size-on-iphone | reduce gif size iphone | make gif smaller, compress gif iphone, gif too large |
+| 3 | make-a-gif-for-discord-on-iphone | gif for discord iphone | discord gif size limit, discord gif too big |
+| 4 | gif-not-working-on-iphone | gif not working iphone | gif not moving, #images not working (rising since Apr 2026) |
+| 5 | best-gif-maker-apps-for-iphone | best gif maker app iphone | gif maker app, giphy alternative (appeared Apr 2026) |
+| 6 | live-photo-to-gif-on-iphone | live photo to gif | convert live photo to gif iphone |
+| 7 | screen-recording-to-gif-on-iphone | screen recording to gif | gif for bug report, gif for github readme |
+| 8 | best-fps-for-a-gif | best fps for gif | gif frame rate, gif frame delay |
+| 9 | send-a-video-as-a-gif-on-whatsapp | whatsapp video to gif iphone | whatsapp gif longer than 6 seconds |
+| 10 | make-a-gif-loop-on-iphone | make gif loop forever | gif play once, gif loop count |
+| 11 | save-a-gif-on-iphone | how to save a gif on iphone | save gif to camera roll, animated album |
+| 12 | video-to-gif-shortcut-not-working | video to gif shortcut not working | make gif shortcut, shortcut alternative |
+| 13 | gif-size-limits-by-platform | gif size limit | discord / github / whatsapp / email limits (link magnet) |
+| 14 | crop-a-gif-on-iphone | crop gif iphone | square gif, gif aspect ratio |
+
+Facts with dates (re-check every few months): Discord free upload 20 MB since 2026-08-13
+(Nitro Basic 50 MB, Nitro 500 MB); Discord custom emoji 256 KB; GitHub 10 MB for images/GIFs;
+WhatsApp video-to-GIF switch for clips of 6 s or less; most email providers ~25 MB.
+
+Next candidates: GIF for Slack, GIF for Telegram, GIF vs MP4, GIF in email signature,
+GIF from a TikTok you made, localized versions of guides 1–4.
 
 ### ASO suggestions (App Store side)
 

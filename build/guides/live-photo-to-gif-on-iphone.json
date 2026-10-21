@@ -1,0 +1,104 @@
+{
+  "priority": 6,
+  "keyword": "live photo to gif",
+  "keywords": "live photo to gif, convert live photo to gif iphone, live photo gif, make gif from live photo, live photo loop to gif, save live photo as gif",
+  "title": "How to Turn a Live Photo into a GIF on iPhone (3 Ways)",
+  "description": "Convert a Live Photo to a GIF on iPhone with the Make GIF shortcut, or save it as a video first for full control over trim, crop, frame rate and loop count.",
+  "h1": "How to turn a Live Photo into a GIF on iPhone",
+  "eyebrow": "Live Photos",
+  "card_title": "Live Photo to GIF",
+  "card_summary": "Three ways to turn the 3 seconds around a photo into a real GIF file.",
+  "quick_answer": "Quickest: add the free Make GIF shortcut from the Shortcuts Gallery and run it on the Live Photo. For control over the result, open the Live Photo in Photos, tap Share and choose Save as Video, then open that video in Make Video to GIF to trim, crop, set the frame rate and loop, and export the GIF.",
+  "intro": [
+    "A Live Photo records about 1.5 seconds before and after the shot, which is often a better GIF than the photo itself: a laugh, a jump, a dog shaking off water.",
+    "Photos' own Loop and Bounce effects make it play like a GIF on your iPhone, but when you share it, other apps may receive a video or a still photo. To get a real GIF file you need one of the methods below."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/3.webp",
+    "alt": "Trim screen in Make Video to GIF with a frame strip and trim handles",
+    "caption": "Save the Live Photo as a video, then trim it like any clip."
+  },
+  "sections": [
+    {
+      "heading": "Method 1: the Make GIF shortcut",
+      "paragraphs": [
+        "Apple's Shortcuts Gallery includes a Make GIF shortcut that accepts Live Photos and bursts:"
+      ],
+      "list": [
+        "Open Shortcuts, tap Gallery, search \"Make GIF\" and add it.",
+        "In its settings, turn on Show in Share Sheet.",
+        "In Photos, open the Live Photo, tap Share and choose Make GIF.",
+        "The GIF is saved to your library, in Recents and the Animated album."
+      ],
+      "ordered": true
+    },
+    {
+      "heading": "Method 2: save as video, then convert",
+      "paragraphs": [
+        "This gives you full control. In Photos, open the Live Photo, tap Share and choose Save as Video. The video appears next to the photo; open it in Make Video to GIF to trim the moment, crop, set FPS and loop count, and see the size before you export."
+      ]
+    },
+    {
+      "heading": "Method 3: Loop or Bounce (playback only)",
+      "paragraphs": [
+        "In Photos, open the Live Photo and switch the effect from Live to Loop or Bounce. It plays like a GIF on your iPhone and in some Apple apps, but it is still a Live Photo, so it is not the right choice when you need a .gif file for Discord, Slack or the web."
+      ]
+    }
+  ],
+  "steps": {
+    "heading": "Step by step: Live Photo to GIF with full control",
+    "intro": "Method 2 in detail.",
+    "total_time": "PT1M",
+    "items": [
+      {
+        "name": "Open the Live Photo",
+        "text": "Find it in Photos (Albums > Media Types > Live Photos lists them all)."
+      },
+      {
+        "name": "Save as Video",
+        "text": "Tap Share and choose Save as Video."
+      },
+      {
+        "name": "Open it in Make Video to GIF",
+        "text": "Pick the new video in the app, or share it from Photos into Make Video to GIF."
+      },
+      {
+        "name": "Trim, crop and set the loop",
+        "text": "Keep the best second or two, crop to the subject and choose an infinite loop."
+      },
+      {
+        "name": "Convert and share",
+        "text": "Tap Convert to GIF, then share it or save it to Photos."
+      }
+    ]
+  },
+  "tips": {
+    "heading": "Tips",
+    "items": [
+      "Live Photos are short, so the frame rate matters: 15 FPS keeps motion smooth without a big file.",
+      "Pick a Live Photo where the camera stayed still; shake shows up as a jittery loop.",
+      "For a seamless loop, trim to a stretch that starts and ends in similar positions."
+    ]
+  },
+  "faq": [
+    {
+      "question": "Why does my Live Photo send as a still image?",
+      "answer": "Many apps only accept the key photo. Convert the Live Photo to a GIF file first, then send the GIF."
+    },
+    {
+      "question": "Can I turn several photos into a GIF?",
+      "answer": "The Make GIF shortcut accepts bursts and multiple photos. For video-based GIFs, convert a video instead."
+    },
+    {
+      "question": "How long is a Live Photo GIF?",
+      "answer": "Up to about 3 seconds, the length of the Live Photo recording."
+    }
+  ],
+  "related": [
+    "make-a-gif-from-a-video-on-iphone",
+    "make-a-gif-loop-on-iphone",
+    "save-a-gif-on-iphone"
+  ],
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

@@ -1,0 +1,123 @@
+{
+  "priority": 8,
+  "keyword": "best fps for gif",
+  "keywords": "best fps for gif, gif frame rate, gif fps, how many fps gif, gif frame delay, smooth gif frame rate",
+  "title": "Best FPS for a GIF: Which Frame Rate to Use and Why",
+  "description": "The best frame rate for a GIF is usually 10–15 FPS. Why 24 FPS becomes 25, why GIFs can't go above 50 FPS, and the right setting for reactions, games and UI.",
+  "h1": "What frame rate should a GIF be?",
+  "eyebrow": "Frame rate",
+  "card_title": "Best FPS for a GIF",
+  "card_summary": "10–15 FPS for most GIFs, and the quirks of GIF frame timing.",
+  "quick_answer": "Use 10–15 FPS for reactions, memes and talking heads, 8–12 FPS for screen recordings, and 20–25 FPS only for fast action like sports or games. GIF stores frame timing in hundredths of a second, so the smooth values are 10, 12.5, 16.7, 20, 25, 33 and 50 FPS; anything faster than 50 FPS is not possible, and very short delays are slowed down by browsers.",
+  "intro": [
+    "Frame rate is the setting with the most direct effect on a GIF's size: every frame is stored in full, so 24 FPS costs about twice as much as 12 FPS for the same seconds.",
+    "Most GIFs look fine at half the frame rate of the original video. The trick is knowing when they don't, and avoiding a couple of quirks in how GIF stores time."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/2.webp",
+    "alt": "GIF settings in Make Video to GIF with a Convert to GIF button",
+    "caption": "Frame rate is one of the GIF settings, next to crop, loop count and encoder."
+  },
+  "sections": [
+    {
+      "heading": "Recommended frame rates",
+      "paragraphs": [
+        "Start here and adjust by eye:"
+      ],
+      "table": {
+        "head": [
+          "Content",
+          "FPS",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "Reaction, meme, talking head",
+            "10–15",
+            "Faces and gestures read fine; small files"
+          ],
+          [
+            "Screen recording, UI demo",
+            "8–12",
+            "Interfaces move in steps; drop frames freely"
+          ],
+          [
+            "Pets, people moving, dance",
+            "15–20",
+            "Smoother limbs; trim shorter to pay for it"
+          ],
+          [
+            "Sports, games, fast camera moves",
+            "20–25",
+            "Below this, fast motion stutters"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Why GIF frame rates are odd numbers",
+      "paragraphs": [
+        "A GIF does not store FPS. Each frame stores a delay in hundredths of a second, so only whole numbers of centiseconds are possible: 10 cs is 10 FPS, 8 cs is 12.5 FPS, 6 cs is about 16.7 FPS, 5 cs is 20 FPS, 4 cs is 25 FPS and 2 cs is 50 FPS. A \"24 FPS\" GIF is really 25 FPS, or alternates delays to average out.",
+        "Browsers also treat very short delays (0 or 1 hundredth of a second) as about a tenth of a second, so a GIF exported at \"60 FPS\" can actually play slower than one at 25 FPS."
+      ]
+    },
+    {
+      "heading": "Frame rate versus file size",
+      "paragraphs": [
+        "Size grows roughly in proportion to the number of frames. If a GIF is too big, lowering the frame rate one step usually costs less visually than shrinking the picture, especially for faces and UI."
+      ]
+    }
+  ],
+  "steps": {
+    "heading": "Set the frame rate in Make Video to GIF",
+    "intro": "Compare two values on your actual clip.",
+    "total_time": "PT1M",
+    "items": [
+      {
+        "name": "Open the clip",
+        "text": "Pick the video in Make Video to GIF and trim it to the moment."
+      },
+      {
+        "name": "Open GIF settings",
+        "text": "Tap GIF settings to see the frame rate, crop, loop and encoder options."
+      },
+      {
+        "name": "Start at 12 FPS",
+        "text": "Set 12 FPS and note the estimated size."
+      },
+      {
+        "name": "Compare",
+        "text": "Export once at 12 and once at 20 FPS; keep the lower one unless the motion clearly stutters."
+      }
+    ]
+  },
+  "tips": {
+    "heading": "Tips",
+    "items": [
+      "A higher source frame rate (60 FPS video) does not mean the GIF needs more than 15 FPS.",
+      "Slow-motion clips already stretch motion, so they look smooth at low GIF frame rates.",
+      "If a GIF looks fast or slow after export, the frame delays were rounded; pick a value from the list above."
+    ]
+  },
+  "faq": [
+    {
+      "question": "Is 30 FPS good for a GIF?",
+      "answer": "It works, but GIF can store 33.3 FPS, not exactly 30, and the file is about three times bigger than at 10 FPS. Use it only for fast motion."
+    },
+    {
+      "question": "What is the maximum frame rate of a GIF?",
+      "answer": "50 FPS (a 2-hundredths-of-a-second delay). Shorter delays are usually slowed down by browsers."
+    },
+    {
+      "question": "Why does my GIF play slower than the video?",
+      "answer": "Frame delays were rounded to hundredths of a second, or a delay below 2 cs was clamped by the viewer. Use 10, 12.5, 20 or 25 FPS."
+    }
+  ],
+  "related": [
+    "reduce-gif-file-size-on-iphone",
+    "screen-recording-to-gif-on-iphone",
+    "make-a-gif-loop-on-iphone"
+  ],
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

@@ -1,0 +1,100 @@
+{
+  "priority": 9,
+  "keyword": "whatsapp video to gif iphone",
+  "keywords": "send video as gif whatsapp, whatsapp gif iphone, whatsapp video to gif, make gif for whatsapp, whatsapp gif longer than 6 seconds",
+  "title": "How to Send a Video as a GIF on WhatsApp from iPhone",
+  "description": "WhatsApp turns videos of 6 seconds or less into GIFs. How to use the built-in GIF switch on iPhone, and what to do for longer clips or more control over it.",
+  "h1": "How to send a video as a GIF on WhatsApp from iPhone",
+  "eyebrow": "WhatsApp",
+  "card_title": "Send a video as a GIF on WhatsApp",
+  "card_summary": "The built-in 6-second GIF switch, and the way around its limits.",
+  "quick_answer": "In a WhatsApp chat tap +, choose Photo & Video Library and pick a video. Trim it to 6 seconds or less and a GIF switch appears next to the camera icon above the trim bar; tap GIF, then Send. For clips you want to crop, slow down via frame rate, loop a set number of times or reuse in other apps, make the GIF in Make Video to GIF first and share the file to WhatsApp.",
+  "intro": [
+    "WhatsApp has had a video-to-GIF switch on iPhone for years, but it hides it until the clip is short enough: six seconds or less.",
+    "That covers most reactions. When you need something it can't do, such as a tighter crop, a specific frame rate or a GIF you can also post on Discord or Slack, convert the clip first."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/3.webp",
+    "alt": "Trim screen in Make Video to GIF with trim handles on a frame strip",
+    "caption": "Trim to the moment before you send it."
+  },
+  "sections": [
+    {
+      "heading": "WhatsApp's built-in GIF switch",
+      "paragraphs": [
+        "Steps in the WhatsApp app:"
+      ],
+      "list": [
+        "Open the chat, tap + and choose Photo & Video Library.",
+        "Pick a video.",
+        "Drag the ends of the timeline at the top until the clip is 6 seconds or shorter.",
+        "Tap GIF next to the camera icon; the clip starts looping.",
+        "Optionally add text, emoji or a drawing, then tap Send."
+      ],
+      "ordered": true,
+      "note": "If you don't see the GIF option, the selection is still longer than 6 seconds."
+    },
+    {
+      "heading": "When to make the GIF first",
+      "paragraphs": [
+        "Make the GIF in Make Video to GIF when you want to crop to a face or an object, choose the frame rate, set a loop count, or keep the same GIF to post elsewhere. Export it, tap Share and pick WhatsApp; the chat receives the animation."
+      ]
+    }
+  ],
+  "steps": {
+    "heading": "Step by step: GIF first, then WhatsApp",
+    "intro": "For clips that need more than WhatsApp's switch.",
+    "total_time": "PT1M",
+    "items": [
+      {
+        "name": "Open the video",
+        "text": "Pick the clip in Make Video to GIF."
+      },
+      {
+        "name": "Trim and crop",
+        "text": "Keep the best seconds and crop to the subject."
+      },
+      {
+        "name": "Set FPS and loop",
+        "text": "12–15 FPS and an infinite loop suit chat reactions."
+      },
+      {
+        "name": "Convert to GIF",
+        "text": "Tap Convert to GIF."
+      },
+      {
+        "name": "Share to WhatsApp",
+        "text": "Tap Share, choose WhatsApp and pick the chat."
+      }
+    ]
+  },
+  "tips": {
+    "heading": "Tips",
+    "items": [
+      "Keep chat GIFs small: people often open them on mobile data.",
+      "A crop around a face makes reactions readable in a small chat bubble.",
+      "WhatsApp's own GIF search (the GIF tab in the sticker panel) is quicker for stock reactions."
+    ]
+  },
+  "faq": [
+    {
+      "question": "Why can't I send a video as a GIF on WhatsApp?",
+      "answer": "The GIF option only appears when the trimmed clip is 6 seconds or shorter. Shorten the selection and it shows up."
+    },
+    {
+      "question": "Can a WhatsApp GIF be longer than 6 seconds?",
+      "answer": "Not with the built-in switch. Make the GIF in another app first, then share it to WhatsApp, and keep the file small."
+    },
+    {
+      "question": "Will the other person see it move?",
+      "answer": "Yes. WhatsApp plays GIFs on iPhone and Android as looping animations."
+    }
+  ],
+  "related": [
+    "make-a-gif-from-a-video-on-iphone",
+    "reduce-gif-file-size-on-iphone",
+    "gif-size-limits-by-platform"
+  ],
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

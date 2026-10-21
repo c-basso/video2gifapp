@@ -1791,33 +1791,36 @@ main:has(> .final-cta:last-child) + .site-footer {
   .brand-name {
     font-size: 19px;
   }
-  .scoreboard thead {
+  .guide-section .scoreboard {
+    min-width: 520px;
+  }
+  .compare .scoreboard thead {
     display: none;
   }
-  .scoreboard,
-  .scoreboard tbody,
-  .scoreboard tr,
-  .scoreboard th,
-  .scoreboard td {
+  .compare .scoreboard,
+  .compare .scoreboard tbody,
+  .compare .scoreboard tr,
+  .compare .scoreboard th,
+  .compare .scoreboard td {
     display: block;
   }
-  .scoreboard tr {
+  .compare .scoreboard tr {
     padding: 8px 0 14px;
     border-bottom: 2px solid var(--plum);
   }
-  .scoreboard th,
-  .scoreboard td {
+  .compare .scoreboard th,
+  .compare .scoreboard td {
     padding: 6px 0;
     border: 0;
   }
-  .scoreboard td::before {
+  .compare .scoreboard td::before {
     content: attr(data-label);
     display: block;
     font-size: 13px;
     font-weight: 650;
     color: var(--plum-3);
   }
-  .scoreboard .col-app {
+  .compare .scoreboard .col-app {
     padding: 8px 10px;
   }
   .footer-inner {

@@ -1,0 +1,126 @@
+{
+  "priority": 7,
+  "keyword": "screen recording to gif",
+  "keywords": "screen recording to gif, iphone screen recording to gif, gif from screen recording, gif for bug report, gif for github readme, app demo gif iphone",
+  "title": "Screen Recording to GIF on iPhone: For Bug Reports and Demos",
+  "description": "Turn an iPhone screen recording into a sharp, small GIF for a bug report, GitHub README, Slack or a product demo. Record, trim, crop the status bar, set FPS.",
+  "h1": "How to turn an iPhone screen recording into a GIF",
+  "eyebrow": "Screen recording",
+  "card_title": "Screen recording to GIF",
+  "card_summary": "Sharp, small GIFs of an app flow for bug reports, READMEs and Slack.",
+  "quick_answer": "Record with Screen Recording in Control Center, then open the recording in Make Video to GIF. Trim to the interaction, crop away the status bar and empty space, set 8–12 FPS (UI rarely needs more) and use the encoder mode that favours palette detail so text stays crisp. Check the estimate against your target, for example 10 MB for GitHub, then export.",
+  "intro": [
+    "A GIF is still the easiest way to show an interaction: it plays inline in GitHub issues, pull requests, READMEs, Slack, Jira and docs, with no player and no click.",
+    "Screen recordings are also the friendliest footage for GIFs: flat colors, little noise and a lot of frames where nothing changes. Set it up right and a 6-second demo stays a few megabytes with readable text."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/2.webp",
+    "alt": "Make Video to GIF settings screen with Edit Video, GIF settings and Convert to GIF",
+    "caption": "Screen recordings are normal videos, so they open like any other clip."
+  },
+  "sections": [
+    {
+      "heading": "Record a clean clip",
+      "paragraphs": [
+        "Add Screen Recording to Control Center (Settings > Control Center), open Control Center and tap the record button; it counts down from 3. Before recording, turn on Do Not Disturb so notifications don't appear, and close what you don't want on screen. The recording is saved to Photos when you stop it."
+      ]
+    },
+    {
+      "heading": "Settings for UI GIFs",
+      "paragraphs": [
+        "UI changes in steps, not in continuous motion, so frames are cheap to drop:"
+      ],
+      "table": {
+        "head": [
+          "Setting",
+          "Recommended",
+          "Why"
+        ],
+        "rows": [
+          [
+            "Frame rate",
+            "8–12 FPS",
+            "Taps and transitions still read; size drops a lot"
+          ],
+          [
+            "Crop",
+            "Remove status bar and margins",
+            "Fewer pixels, more focus"
+          ],
+          [
+            "Encoder",
+            "Palette detail",
+            "Keeps small text and icons sharp"
+          ],
+          [
+            "Loop",
+            "Infinite, or a few plays",
+            "Infinite for READMEs; a fixed count for step-by-step demos"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Size limits where these GIFs go",
+      "paragraphs": [
+        "GitHub accepts images and GIFs up to 10 MB in issues, pull requests and comments. Discord's free limit is 20 MB per file. For docs and wikis, keep GIFs a few megabytes so pages load quickly."
+      ]
+    }
+  ],
+  "steps": {
+    "heading": "Step by step: screen recording to GIF",
+    "intro": "About two minutes including the recording.",
+    "total_time": "PT2M",
+    "items": [
+      {
+        "name": "Record the flow",
+        "text": "Start Screen Recording from Control Center, perform the interaction slowly once, then stop."
+      },
+      {
+        "name": "Open it in Make Video to GIF",
+        "text": "Pick the recording in the app, or share it from Photos into Make Video to GIF."
+      },
+      {
+        "name": "Trim to the interaction",
+        "text": "Cut the countdown and the moment you open Control Center to stop recording."
+      },
+      {
+        "name": "Crop and set FPS",
+        "text": "Crop away the status bar and set 8–12 FPS; choose the palette-detail encoder for sharp text."
+      },
+      {
+        "name": "Export and attach",
+        "text": "Convert to GIF, then drag it into the issue, README or Slack thread, or share it from the share sheet."
+      }
+    ]
+  },
+  "tips": {
+    "heading": "Tips",
+    "items": [
+      "Move slower than usual while recording; a GIF has no pause button.",
+      "Use a plain wallpaper and light mode or dark mode consistently across GIFs in the same doc.",
+      "Name the file after the bug or feature before you attach it; it helps people searching later."
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the GIF size limit on GitHub?",
+      "answer": "GitHub accepts images and GIFs up to 10 MB in issues, pull requests and comments; videos can be up to 100 MB."
+    },
+    {
+      "question": "Why is the text in my GIF blurry?",
+      "answer": "GIF has 256 colors per frame and resizing softens text. Crop instead of scaling down, and use the encoder mode that favours palette detail."
+    },
+    {
+      "question": "Can I record the screen with sound for a GIF?",
+      "answer": "GIFs have no sound, so turn the microphone off; the recording's audio is dropped anyway."
+    }
+  ],
+  "related": [
+    "reduce-gif-file-size-on-iphone",
+    "best-fps-for-a-gif",
+    "crop-a-gif-on-iphone"
+  ],
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

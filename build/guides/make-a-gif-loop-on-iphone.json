@@ -1,0 +1,109 @@
+{
+  "priority": 10,
+  "keyword": "make gif loop forever",
+  "keywords": "make gif loop forever, loop gif iphone, gif play once, gif loop count, gif not looping, seamless gif loop",
+  "title": "How to Make a GIF Loop Forever (or Play Once) on iPhone",
+  "description": "Set a GIF to loop forever, play once or repeat a few times on iPhone, why some GIFs stop after one play, and how to trim a video into a seamless loop.",
+  "h1": "How to make a GIF loop forever, or play just once",
+  "eyebrow": "Loop",
+  "card_title": "Make a GIF loop on iPhone",
+  "card_summary": "Infinite loops, play-once GIFs and seamless loops from a video.",
+  "quick_answer": "Loop count is stored inside the GIF file. In Make Video to GIF open GIF settings and set the loop to infinite for reactions, or to a fixed number of plays for demos, then export. A GIF that stops after one play was exported without the loop setting; re-export it from the video with an infinite loop.",
+  "intro": [
+    "Whether a GIF loops is not decided by the app showing it but by a small setting inside the file, the loop count. Zero means forever; no setting at all usually means play once.",
+    "There are two separate goals here: making the file loop, and making the loop look seamless. Both are easy once you know where they come from."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/2.webp",
+    "alt": "Make Video to GIF screen with GIF settings and Convert to GIF",
+    "caption": "Loop count is one of the GIF settings."
+  },
+  "sections": [
+    {
+      "heading": "Loop forever, once, or a few times",
+      "paragraphs": [
+        "Choose by where the GIF will be seen:"
+      ],
+      "table": {
+        "head": [
+          "Loop setting",
+          "Use for"
+        ],
+        "rows": [
+          [
+            "Infinite",
+            "Reactions, memes, README demos, anything people glance at"
+          ],
+          [
+            "Play once",
+            "A reveal or an ending that should stay on the last frame"
+          ],
+          [
+            "2–3 times",
+            "Step-by-step demos in docs or emails, so motion stops after a moment"
+          ]
+        ]
+      },
+      "note": "Viewers have historically disagreed on whether a loop count of 1 means one play or one extra play; test where the GIF will be shown."
+    },
+    {
+      "heading": "Make the loop seamless",
+      "paragraphs": [
+        "A loop looks seamless when the last frame flows into the first. Trim to a stretch that starts and ends in a similar position: a head nod, a wave, a spinning object, a repeating UI animation. Avoid cutting in the middle of a camera move.",
+        "Some platforms (Telegram, X and others) convert GIFs to short videos and loop them regardless of the loop count, so a play-once GIF may loop there anyway."
+      ]
+    }
+  ],
+  "steps": {
+    "heading": "Set the loop in Make Video to GIF",
+    "intro": "Takes a few seconds once the clip is trimmed.",
+    "total_time": "PT1M",
+    "items": [
+      {
+        "name": "Open and trim the clip",
+        "text": "Pick the video and trim to a stretch that starts and ends in a similar position."
+      },
+      {
+        "name": "Open GIF settings",
+        "text": "Tap GIF settings."
+      },
+      {
+        "name": "Choose the loop",
+        "text": "Select infinite loop, or a fixed number of plays."
+      },
+      {
+        "name": "Convert and check",
+        "text": "Tap Convert to GIF and preview it; reopen the project to adjust and export again."
+      }
+    ]
+  },
+  "tips": {
+    "heading": "Tips",
+    "items": [
+      "Infinite loops are the safe default for chat apps.",
+      "For a demo GIF in an email, two or three plays avoid distracting the reader.",
+      "Projects can be reopened in Make Video to GIF, so trying another loop setting doesn't mean starting over."
+    ]
+  },
+  "faq": [
+    {
+      "question": "Why does my GIF only play once?",
+      "answer": "It was exported without a loop count, which most viewers treat as play once. Export it again with an infinite loop."
+    },
+    {
+      "question": "Can I stop a GIF from looping?",
+      "answer": "Yes. Set the loop to play once before exporting. Some apps that convert GIFs to video may still loop it."
+    },
+    {
+      "question": "How do I make a perfect loop?",
+      "answer": "Trim so the first and last frames match, keep the camera still, and use an infinite loop."
+    }
+  ],
+  "related": [
+    "make-a-gif-from-a-video-on-iphone",
+    "best-fps-for-a-gif",
+    "live-photo-to-gif-on-iphone"
+  ],
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

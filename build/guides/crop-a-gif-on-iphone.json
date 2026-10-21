@@ -1,0 +1,111 @@
+{
+  "priority": 14,
+  "keyword": "crop gif iphone",
+  "keywords": "crop gif iphone, square gif, crop video to gif, make square gif iphone, resize gif iphone, gif aspect ratio",
+  "title": "How to Crop a GIF on iPhone: Square, Portrait or Wide",
+  "description": "Crop a video into a square, portrait or wide GIF on iPhone. Pick the right shape for chats, Discord, Slack and READMEs, and get a smaller file as a bonus.",
+  "h1": "How to crop a GIF on iPhone",
+  "eyebrow": "Crop",
+  "card_title": "Crop a GIF on iPhone",
+  "card_summary": "Square, portrait or wide: crop before converting for sharper, smaller GIFs.",
+  "quick_answer": "Crop the video before it becomes a GIF: in Make Video to GIF choose an aspect preset (for example square) in the crop step, frame the subject, then set FPS and loop and convert. Cropping a GIF that already exists re-encodes it and loses quality, so start from the original video whenever you have it.",
+  "intro": [
+    "Phone videos are tall; chat bubbles, Discord embeds and READMEs are not. A crop puts the subject in the middle of the frame and removes the pixels nobody looks at.",
+    "Cropping is also the second-biggest file size saving after trimming, so a well-cropped GIF is both easier to read and faster to load."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/3.webp",
+    "alt": "Trim screen in Make Video to GIF with a frame strip",
+    "caption": "Trim first, then crop to the part of the frame that matters."
+  },
+  "sections": [
+    {
+      "heading": "Which aspect ratio to choose",
+      "paragraphs": [
+        "Pick by where the GIF will be shown:"
+      ],
+      "table": {
+        "head": [
+          "Shape",
+          "Good for"
+        ],
+        "rows": [
+          [
+            "Square (1:1)",
+            "Reactions, chat bubbles, Discord, profile-style GIFs"
+          ],
+          [
+            "Portrait",
+            "Full-height phone UI, stories, a person standing"
+          ],
+          [
+            "Wide",
+            "Desktop docs, READMEs, landscape game or sports clips"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Crop versus resize",
+      "paragraphs": [
+        "Cropping removes the edges; resizing shrinks everything, including text and faces. For GIFs of interfaces or anything with text, crop instead of resizing so details stay sharp."
+      ]
+    }
+  ],
+  "steps": {
+    "heading": "Step by step: crop a video into a GIF",
+    "intro": "Works the same for any shape.",
+    "total_time": "PT1M",
+    "items": [
+      {
+        "name": "Open the video",
+        "text": "Pick the clip in Make Video to GIF."
+      },
+      {
+        "name": "Trim",
+        "text": "Keep the seconds you want."
+      },
+      {
+        "name": "Choose an aspect preset",
+        "text": "Select the shape, for example square, and position the frame over the subject."
+      },
+      {
+        "name": "Set FPS and loop",
+        "text": "Adjust them in GIF settings and check the estimated size."
+      },
+      {
+        "name": "Convert",
+        "text": "Tap Convert to GIF and share it."
+      }
+    ]
+  },
+  "tips": {
+    "heading": "Tips",
+    "items": [
+      "Leave a little space around a face; tight crops look cramped when the head moves.",
+      "For screen recordings, crop out the status bar and home indicator.",
+      "If the subject moves across the frame, use a wider crop rather than cutting it off mid-loop."
+    ]
+  },
+  "faq": [
+    {
+      "question": "Can I crop a GIF without the original video?",
+      "answer": "Yes, but re-encoding a GIF loses quality. Use the original video when you can."
+    },
+    {
+      "question": "Does cropping make a GIF smaller?",
+      "answer": "Yes. Fewer pixels per frame means a smaller file; a square crop of a widescreen clip removes almost half of each frame."
+    },
+    {
+      "question": "What size should a Discord GIF be?",
+      "answer": "A square or wide crop a few hundred pixels across looks sharp in chat and stays well under the 20 MB free limit."
+    }
+  ],
+  "related": [
+    "reduce-gif-file-size-on-iphone",
+    "screen-recording-to-gif-on-iphone",
+    "make-a-gif-for-discord-on-iphone"
+  ],
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

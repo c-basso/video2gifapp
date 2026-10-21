@@ -195,7 +195,7 @@
   },
   "guides": {
     "title": "Guides for making GIFs on iPhone",
-    "intro": "Step-by-step help for the moments people need a GIF: from a video, from a screen recording, for Discord or Slack, and smaller files.",
+    "intro": "Step-by-step help for the moments people need a GIF on iPhone: from a video or a Live Photo, for Discord or WhatsApp, smaller files, perfect loops and fixes for GIFs that won't move.",
     "hub_link_text": "See all guides",
     "read_more": "Read the guide",
     "hub": {
@@ -263,19 +263,37 @@
       },
       {
         "question": "How do I make a GIF smaller?",
-        "answer": "Keep fewer seconds, crop to the part that moves, lower the frames per second (10 to 15 is plenty for most reactions) and pick the encoder mode that favours file size. The app shows an estimated size before you export."
+        "answer": "Keep fewer seconds, crop to the part that moves, lower the frames per second (10 to 15 is plenty for most reactions) and pick the encoder mode that favours file size. The app shows an estimated size before you export.",
+        "guide": "reduce-gif-file-size-on-iphone"
       },
       {
         "question": "Can I turn a screen recording into a GIF?",
-        "answer": "Yes. A screen recording is saved as a normal video in Photos, so you can pick it, trim it to the interaction and export a GIF for a bug report, a Slack thread or a tutorial."
+        "answer": "Yes. A screen recording is saved as a normal video in Photos, so you can pick it, trim it to the interaction and export a GIF for a bug report, a Slack thread or a tutorial.",
+        "guide": "screen-recording-to-gif-on-iphone"
       },
       {
         "question": "Can the GIF loop forever or play only once?",
-        "answer": "Both. Loop count is a GIF setting: choose an infinite loop for reactions, or a fixed number of plays for a demo."
+        "answer": "Both. Loop count is a GIF setting: choose an infinite loop for reactions, or a fixed number of plays for a demo.",
+        "guide": "make-a-gif-loop-on-iphone"
       },
       {
         "question": "Why does my GIF look grainy or blocky?",
         "answer": "GIF can only use 256 colors per frame, so gradients and dark footage band. Try the encoder mode that favours palette detail, crop tighter and keep the clip short; very long, high-FPS clips trade quality for size."
+      },
+      {
+        "question": "What is the GIF size limit on Discord?",
+        "answer": "20 MB per file on a free account (since August 2026), 50 MB with Nitro Basic and 500 MB with Nitro. Trim, crop and lower the frame rate to fit.",
+        "guide": "make-a-gif-for-discord-on-iphone"
+      },
+      {
+        "question": "Why are GIFs not moving on my iPhone?",
+        "answer": "Check Reduce Motion in Settings > Accessibility > Motion, open the GIF full screen, and look in the Animated album. If it is not there, the file was saved as a still image or a video.",
+        "guide": "gif-not-working-on-iphone"
+      },
+      {
+        "question": "How do I turn a Live Photo into a GIF?",
+        "answer": "Use the free Make GIF shortcut, or in Photos tap Share > Save as Video and convert that video to a GIF with full control over trim, crop and loop.",
+        "guide": "live-photo-to-gif-on-iphone"
       },
       {
         "question": "Is Make Video to GIF free, and which devices does it run on?",

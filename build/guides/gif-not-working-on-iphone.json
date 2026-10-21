@@ -1,0 +1,108 @@
+{
+  "priority": 4,
+  "keyword": "gif not working iphone",
+  "keywords": "gif not working iphone, gifs not working on iphone, gif not moving iphone, gif not animating iphone, gif shows as still image iphone, #images not working",
+  "title": "GIFs Not Working on iPhone? 8 Fixes for Frozen GIFs",
+  "description": "GIFs frozen or not moving on iPhone? Check Reduce Motion, #images in Messages, the Animated album, iCloud downloads and whether the file is a real GIF.",
+  "h1": "GIFs not working on iPhone: how to fix frozen GIFs",
+  "eyebrow": "Fix",
+  "card_title": "GIFs not working on iPhone",
+  "card_summary": "Frozen or still GIFs in Photos and Messages, and the eight usual causes.",
+  "quick_answer": "Start with Settings > Accessibility > Motion and turn off Reduce Motion, which can stop animations. In Messages, make sure the #images app is enabled and that MMS Messaging is on for SMS contacts. In Photos, open the GIF (thumbnails may stay still) and look in the Animated album. If a \"GIF\" never moves anywhere, it is probably a still image or a video, so make a real GIF from the original clip.",
+  "intro": [
+    "A GIF that refuses to move usually is not broken. iPhone shows GIFs as still thumbnails in some places, accessibility settings can pause motion, and some apps save the first frame instead of the animated file.",
+    "Go through the checks below in order; the first three solve most cases."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/4.webp",
+    "alt": "Creating GIF progress screen in Make Video to GIF at 34 percent",
+    "caption": "If the file was never a real GIF, make one from the original video.",
+    "hide_in_article": true
+  },
+  "sections": [
+    {
+      "heading": "Fixes for GIFs in Photos",
+      "paragraphs": [
+        "Photos treats GIFs as animated images:"
+      ],
+      "list": [
+        "Open the GIF full screen: grid thumbnails can stay still while the full view plays.",
+        "Check Albums > Media Types > Animated. If the GIF is not there, Photos saved it as a still image.",
+        "If iCloud Photos is set to Optimize iPhone Storage, wait for the full file to download (a progress circle appears at the bottom); a placeholder does not animate.",
+        "Turn off Reduce Motion in Settings > Accessibility > Motion, then reopen Photos."
+      ],
+      "ordered": true
+    },
+    {
+      "heading": "Fixes for GIFs in Messages",
+      "paragraphs": [
+        "For the GIF search and for GIFs people send you:"
+      ],
+      "list": [
+        "Enable #images: in a conversation tap +, then More, and drag #images up to your apps.",
+        "Turn on Settings > Messages > MMS Messaging when the other person is on SMS (green bubbles).",
+        "Force close Messages and reopen it; check your connection if #images shows blank tiles.",
+        "#images is not available in every region; Settings > General > Language & Region decides it."
+      ],
+      "ordered": true
+    },
+    {
+      "heading": "When the file is not really a GIF",
+      "paragraphs": [
+        "Many apps share an MP4 or a Live Photo and call it a GIF. Saved to Photos it shows up as a video or a still image, and other apps receive the first frame only. The fix is to make a proper GIF file from the original video, which keeps the animation wherever you send it."
+      ]
+    }
+  ],
+  "steps": {
+    "heading": "Make a GIF that plays everywhere",
+    "intro": "When you have the original video, this avoids the problem entirely.",
+    "total_time": "PT1M",
+    "items": [
+      {
+        "name": "Open the original video",
+        "text": "Pick it in Make Video to GIF, or share it from Photos into the app."
+      },
+      {
+        "name": "Trim and adjust",
+        "text": "Keep the seconds you need and set FPS, crop and loop count in GIF settings."
+      },
+      {
+        "name": "Convert to GIF",
+        "text": "Tap Convert to GIF; the result is a standard animated GIF file."
+      },
+      {
+        "name": "Save or send the file",
+        "text": "Use Save to Photos (it appears in the Animated album) or send it from the share sheet."
+      }
+    ]
+  },
+  "tips": {
+    "heading": "Good to know",
+    "items": [
+      "Taking a screenshot of a GIF always produces a still image; share the file instead.",
+      "Low storage can stop Photos from downloading full files; free up space in Settings > General > iPhone Storage.",
+      "Keep iOS updated: GIF playback bugs in Messages are often fixed in point releases."
+    ]
+  },
+  "faq": [
+    {
+      "question": "Why are my GIFs not moving in Photos?",
+      "answer": "Open the GIF full screen and check the Animated album. If it is not there, it was saved as a still image or a video, not as a GIF."
+    },
+    {
+      "question": "Why does #images show nothing?",
+      "answer": "It needs a connection, has to be enabled in the Messages app drawer, and is not offered in every region."
+    },
+    {
+      "question": "Does Reduce Motion stop GIFs?",
+      "answer": "It can pause animations in some places. Turn it off in Settings > Accessibility > Motion to test."
+    }
+  ],
+  "related": [
+    "save-a-gif-on-iphone",
+    "make-a-gif-from-a-video-on-iphone",
+    "video-to-gif-shortcut-not-working"
+  ],
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

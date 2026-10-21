@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover"
+    />
+    <title>Screen Recording to GIF on iPhone: For Bug Reports and Demos</title>
+    <meta
+      name="description"
+      content="Turn an iPhone screen recording into a sharp, small GIF for a bug report, GitHub README, Slack or a product demo. Record, trim, crop the status bar, set FPS."
+    />
+    <!-- App Store Smart App Banner -->
+    <meta name="apple-itunes-app" content="app-id=6762465120" />
+    <!-- Core SEO -->
+    <meta name="keywords" content="screen recording to gif, iphone screen recording to gif, gif from screen recording, gif for bug report, gif for github readme, app demo gif iphone" />
+    <meta name="author" content="c-basso" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="bingbot" content="index, follow" />
+    <link rel="canonical" href="https://video2gifapp.com/guides/screen-recording-to-gif-on-iphone/" />
+    <link
+      rel="alternate"
+      type="text/plain"
+      href="/llms.txt"
+      title="LLM / AI summary of this site"
+    />
+
+    <!-- Alternate Language Links -->
+    
+    <link rel="alternate" hreflang="en" href="https://video2gifapp.com/guides/screen-recording-to-gif-on-iphone/" />
+    
+    <link rel="alternate" hreflang="x-default" href="https://video2gifapp.com/guides/screen-recording-to-gif-on-iphone/" />
+
+    <!-- PWA & Theming -->
+    <meta name="theme-color" content="#17122b" />
+    <meta name="msapplication-TileColor" content="#17122b" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="How to turn an iPhone screen recording into a GIF" />
+    <meta property="og:description" content="Turn an iPhone screen recording into a sharp, small GIF for a bug report, GitHub README, Slack or a product demo. Record, trim, crop the status bar, set FPS." />
+    <meta property="og:image" content="https://video2gifapp.com/site_preview.png" />
+    <meta property="og:image:alt" content="Make Video to GIF settings screen with Edit Video, GIF settings and Convert to GIF" />
+    <meta property="og:image:width" content="1026" />
+    <meta property="og:image:height" content="539" />
+    <meta property="og:logo" content="https://video2gifapp.com/img/logo.webp" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://video2gifapp.com/guides/screen-recording-to-gif-on-iphone/" />
+    <meta property="og:site_name" content="Make Video to GIF" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://video2gifapp.com/guides/screen-recording-to-gif-on-iphone/" />
+    <meta name="twitter:title" content="How to turn an iPhone screen recording into a GIF" />
+    <meta name="twitter:description" content="Turn an iPhone screen recording into a sharp, small GIF for a bug report, GitHub README, Slack or a product demo. Record, trim, crop the status bar, set FPS." />
+    <meta name="twitter:image" content="https://video2gifapp.com/site_preview.png" />
+    <meta name="twitter:image:width" content="1026" />
+    <meta name="twitter:image:height" content="539" />
+
+    <link rel="preconnect" href="https://apps.apple.com" />
+    <link rel="dns-prefetch" href="https://apps.apple.com" />
+    <link rel="preload" href="/fonts/pixelify-sans-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/onest-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="/img/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
+    <link rel="mask-icon" href="/img/favicon.svg" color="#17122b" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/img/web-app-manifest-192x192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/img/web-app-manifest-512x512.png" />
+    <!-- Application Name -->
+    <meta name="application-name" content="Make Video to GIF – Turn clips into loops" />
+
+    <link
+      rel="stylesheet"
+      href="/style.css?v=1792607214957"
+    />
+    <script>document.documentElement.classList.add('js');</script>
+    <!-- dev-links: on localhost / LAN dev servers, point absolute site links at the local copy (no effect in production) -->
+    <script>
+      (function () {
+        var h = location.hostname;
+        var isDev = h === 'localhost' || h === '127.0.0.1' || h === '[::1]' || h === '0.0.0.0' ||
+          /\.(local|localhost|test)$/.test(h) || /^(10|192\.168|172\.(1[6-9]|2\d|3[01]))\./.test(h);
+        if (!isDev) return;
+        var SITE = 'https://video2gifapp.com';
+        var sel = 'a[href^="' + SITE + '"]';
+        function fix(root) {
+          root.querySelectorAll(sel).forEach(function (a) {
+            a.setAttribute('href', a.getAttribute('href').slice(SITE.length) || '/');
+          });
+        }
+        document.addEventListener('DOMContentLoaded', function () { fix(document); });
+        document.addEventListener('click', function (e) {
+          var a = e.target.closest && e.target.closest(sel);
+          if (a) a.setAttribute('href', a.getAttribute('href').slice(SITE.length) || '/');
+        }, true);
+      })();
+    </script>
+
+  </head>
+  <body class="page-guide">
+      <header class="site-header">
+        <a class="brand" href="https://video2gifapp.com/">
+          <img class="brand-icon" src="/img/logo.webp" alt="" width="40" height="40" loading="eager" decoding="async" />
+          <span class="brand-name">Make Video to GIF</span>
+        </a>
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+          <a href="https://video2gifapp.com/#screenshots">Screenshots</a>
+          <a href="https://video2gifapp.com/#how-it-works">How it works</a>
+          <a href="https://video2gifapp.com/guides/">Guides</a>
+          <a href="https://video2gifapp.com/#faq">FAQ</a>
+          <a class="nav-store" href="https://apps.apple.com/app/id6762465120" target="_blank" rel="noopener noreferrer">Download on the App Store</a>
+        </nav>
+        <a class="header-cta" href="https://apps.apple.com/app/id6762465120" target="_blank" rel="noopener noreferrer" aria-label="Download Make Video to GIF on the App Store">
+          <svg width="14" height="17" viewBox="14 8 14 26" aria-hidden="true"><path fill="currentColor" d="M24.99671,19.88935a5.14625,5.14625,0,0,1,2.45058-4.31771,5.26776,5.26776,0,0,0-4.15039-2.24376c-1.74624-.1833-3.43913,1.04492-4.329,1.04492-.90707,0-2.27713-1.02672-3.75247-.99637a5.52735,5.52735,0,0,0-4.65137,2.8367c-2.01111,3.482-.511,8.59939,1.41551,11.414.96388,1.37823,2.09037,2.91774,3.56438,2.86315,1.4424-.05983,1.98111-.91977,3.7222-.91977,1.72494,0,2.23035.91977,3.73427.88506,1.54777-.02512,2.52292-1.38435,3.453-2.77563a11.39931,11.39931,0,0,0,1.579-3.21589A4.97284,4.97284,0,0,1,24.99671,19.88935Z"/><path fill="currentColor" d="M22.15611,11.47681a5.06687,5.06687,0,0,0,1.159-3.62989,5.15524,5.15524,0,0,0-3.33555,1.72582,4.82131,4.82131,0,0,0-1.18934,3.4955A4.26259,4.26259,0,0,0,22.15611,11.47681Z"/></svg>
+          <span>App Store</span>
+        </a>
+        <button type="button" class="nav-toggle" aria-controls="site-nav" aria-expanded="false" aria-label="Menu">
+          <span class="nav-toggle-bars" aria-hidden="true"></span>
+        </button>
+      </header>
+
+
+    <main id="main" class="guide-layout">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="https://video2gifapp.com/">Home</a></li>
+          <li><a href="https://video2gifapp.com/guides/">Guides</a></li>
+          <li aria-current="page">Screen recording to GIF</li>
+        </ol>
+      </nav>
+
+      <article class="guide-article">
+        <header class="guide-header">
+          <p class="guide-tag">Screen recording</p>
+          <h1>How to turn an iPhone screen recording into a GIF</h1>
+          <p class="guide-meta">
+            Updated <time datetime="2026-10-21">October 21, 2026</time>, 4 min read
+          </p>
+          <div class="quick-answer">
+            <p class="quick-answer-label">Quick answer</p>
+            <p>Record with Screen Recording in Control Center, then open the recording in Make Video to GIF. Trim to the interaction, crop away the status bar and empty space, set 8–12 FPS (UI rarely needs more) and use the encoder mode that favours palette detail so text stays crisp. Check the estimate against your target, for example 10 MB for GitHub, then export.</p>
+          </div>
+        </header>
+
+        <div class="guide-body">
+          
+          <p>A GIF is still the easiest way to show an interaction: it plays inline in GitHub issues, pull requests, READMEs, Slack, Jira and docs, with no player and no click.</p>
+          
+          <p>Screen recordings are also the friendliest footage for GIFs: flat colors, little noise and a lot of frames where nothing changes. Set it up right and a 6-second demo stays a few megabytes with readable text.</p>
+          
+
+          
+          <figure class="guide-figure">
+            <img src="/img/screenshots/2.webp" alt="Make Video to GIF settings screen with Edit Video, GIF settings and Convert to GIF" width="460" height="995" loading="lazy" decoding="async" />
+            <figcaption>Screen recordings are normal videos, so they open like any other clip.</figcaption>
+          </figure>
+          
+          
+
+          
+          <section class="guide-section" id="record-a-clean-clip">
+            <h2>Record a clean clip</h2>
+            
+            <p>Add Screen Recording to Control Center (Settings > Control Center), open Control Center and tap the record button; it counts down from 3. Before recording, turn on Do Not Disturb so notifications don't appear, and close what you don't want on screen. The recording is saved to Photos when you stop it.</p>
+            
+            
+            
+            
+          </section>
+          
+          <section class="guide-section" id="settings-for-ui-gifs">
+            <h2>Settings for UI GIFs</h2>
+            
+            <p>UI changes in steps, not in continuous motion, so frames are cheap to drop:</p>
+            
+            
+            
+            <div class="table-wrap">
+              <table class="scoreboard">
+                <thead>
+                  <tr><th scope="col">Setting</th><th scope="col">Recommended</th><th scope="col">Why</th></tr>
+                </thead>
+                <tbody>
+                  
+                  <tr><td>Frame rate</td><td>8–12 FPS</td><td>Taps and transitions still read; size drops a lot</td></tr>
+                  
+                  <tr><td>Crop</td><td>Remove status bar and margins</td><td>Fewer pixels, more focus</td></tr>
+                  
+                  <tr><td>Encoder</td><td>Palette detail</td><td>Keeps small text and icons sharp</td></tr>
+                  
+                  <tr><td>Loop</td><td>Infinite, or a few plays</td><td>Infinite for READMEs; a fixed count for step-by-step demos</td></tr>
+                  
+                </tbody>
+              </table>
+            </div>
+            
+            
+          </section>
+          
+          <section class="guide-section" id="size-limits-where-these-gifs-go">
+            <h2>Size limits where these GIFs go</h2>
+            
+            <p>GitHub accepts images and GIFs up to 10 MB in issues, pull requests and comments. Discord's free limit is 20 MB per file. For docs and wikis, keep GIFs a few megabytes so pages load quickly.</p>
+            
+            
+            
+            
+          </section>
+          
+
+          
+          <section class="guide-section guide-steps" id="steps">
+            <h2>Step by step: screen recording to GIF</h2>
+            <p>About two minutes including the recording.</p>
+            <ol class="steps steps-vertical">
+              
+              <li id="step-1">
+                <span class="step-n">1</span>
+                <div>
+                  <h3>Record the flow</h3>
+                  <p>Start Screen Recording from Control Center, perform the interaction slowly once, then stop.</p>
+                </div>
+              </li>
+              
+              <li id="step-2">
+                <span class="step-n">2</span>
+                <div>
+                  <h3>Open it in Make Video to GIF</h3>
+                  <p>Pick the recording in the app, or share it from Photos into Make Video to GIF.</p>
+                </div>
+              </li>
+              
+              <li id="step-3">
+                <span class="step-n">3</span>
+                <div>
+                  <h3>Trim to the interaction</h3>
+                  <p>Cut the countdown and the moment you open Control Center to stop recording.</p>
+                </div>
+              </li>
+              
+              <li id="step-4">
+                <span class="step-n">4</span>
+                <div>
+                  <h3>Crop and set FPS</h3>
+                  <p>Crop away the status bar and set 8–12 FPS; choose the palette-detail encoder for sharp text.</p>
+                </div>
+              </li>
+              
+              <li id="step-5">
+                <span class="step-n">5</span>
+                <div>
+                  <h3>Export and attach</h3>
+                  <p>Convert to GIF, then drag it into the issue, README or Slack thread, or share it from the share sheet.</p>
+                </div>
+              </li>
+              
+            </ol>
+            <div class="inline-cta">
+              <img src="/img/app-icon.webp" alt="" width="64" height="64" loading="lazy" decoding="async" />
+              <div class="inline-cta-copy">
+                <p class="inline-cta-title">Do it in Make Video to GIF</p>
+                <p>Free on the App Store. Pick a clip, trim, tune, export.</p>
+              </div>
+              <a
+                class="store-button"
+                href="https://apps.apple.com/app/id6762465120"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Download Make Video to GIF on the App Store"
+              >
+                <svg
+                  class="store-button-icon"
+                  width="20"
+                  height="24"
+                  viewBox="14 8 14 26"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M24.99671,19.88935a5.14625,5.14625,0,0,1,2.45058-4.31771,5.26776,5.26776,0,0,0-4.15039-2.24376c-1.74624-.1833-3.43913,1.04492-4.329,1.04492-.90707,0-2.27713-1.02672-3.75247-.99637a5.52735,5.52735,0,0,0-4.65137,2.8367c-2.01111,3.482-.511,8.59939,1.41551,11.414.96388,1.37823,2.09037,2.91774,3.56438,2.86315,1.4424-.05983,1.98111-.91977,3.7222-.91977,1.72494,0,2.23035.91977,3.73427.88506,1.54777-.02512,2.52292-1.38435,3.453-2.77563a11.39931,11.39931,0,0,0,1.579-3.21589A4.97284,4.97284,0,0,1,24.99671,19.88935Z"
+                  />
+                  <path
+                    fill="currentColor"
+                    d="M22.15611,11.47681a5.06687,5.06687,0,0,0,1.159-3.62989,5.15524,5.15524,0,0,0-3.33555,1.72582,4.82131,4.82131,0,0,0-1.18934,3.4955A4.26259,4.26259,0,0,0,22.15611,11.47681Z"
+                  />
+                </svg>
+                <span>Download on the App Store</span>
+              </a>
+
+            </div>
+          </section>
+          
+
+          
+          <section class="guide-section">
+            <h2>Tips</h2>
+            <ul class="tips">
+              <li>Move slower than usual while recording; a GIF has no pause button.</li><li>Use a plain wallpaper and light mode or dark mode consistently across GIFs in the same doc.</li><li>Name the file after the bug or feature before you attach it; it helps people searching later.</li>
+            </ul>
+          </section>
+          
+
+          
+          <section class="guide-section guide-faq">
+            <h2>Questions people also ask</h2>
+            <div class="faq-list faq-list-single">
+              
+              <article class="faq-item">
+                <h3 class="faq-q">What is the GIF size limit on GitHub?</h3>
+                <p class="faq-a">GitHub accepts images and GIFs up to 10 MB in issues, pull requests and comments; videos can be up to 100 MB.</p>
+              </article>
+              
+              <article class="faq-item">
+                <h3 class="faq-q">Why is the text in my GIF blurry?</h3>
+                <p class="faq-a">GIF has 256 colors per frame and resizing softens text. Crop instead of scaling down, and use the encoder mode that favours palette detail.</p>
+              </article>
+              
+              <article class="faq-item">
+                <h3 class="faq-q">Can I record the screen with sound for a GIF?</h3>
+                <p class="faq-a">GIFs have no sound, so turn the microphone off; the recording's audio is dropped anyway.</p>
+              </article>
+              
+            </div>
+          </section>
+          
+
+          <p class="guide-disclaimer">Only convert videos you have the right to share. Make Video to GIF is an independent app and is not affiliated with Apple, GIPHY, Discord or Slack.</p>
+        </div>
+      </article>
+
+      <aside class="guide-aside">
+        <div class="app-card">
+          <img src="/img/app-icon.webp" alt="Make Video to GIF app icon" width="80" height="80" loading="lazy" decoding="async" />
+          <p class="app-card-name">Make Video to GIF</p>
+          <p class="app-card-sub">Turn clips into loops. Photo & Video app for iPhone.</p>
+          
+              <a
+                class="store-button"
+                href="https://apps.apple.com/app/id6762465120"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Download Make Video to GIF on the App Store"
+              >
+                <svg
+                  class="store-button-icon"
+                  width="20"
+                  height="24"
+                  viewBox="14 8 14 26"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M24.99671,19.88935a5.14625,5.14625,0,0,1,2.45058-4.31771,5.26776,5.26776,0,0,0-4.15039-2.24376c-1.74624-.1833-3.43913,1.04492-4.329,1.04492-.90707,0-2.27713-1.02672-3.75247-.99637a5.52735,5.52735,0,0,0-4.65137,2.8367c-2.01111,3.482-.511,8.59939,1.41551,11.414.96388,1.37823,2.09037,2.91774,3.56438,2.86315,1.4424-.05983,1.98111-.91977,3.7222-.91977,1.72494,0,2.23035.91977,3.73427.88506,1.54777-.02512,2.52292-1.38435,3.453-2.77563a11.39931,11.39931,0,0,0,1.579-3.21589A4.97284,4.97284,0,0,1,24.99671,19.88935Z"
+                  />
+                  <path
+                    fill="currentColor"
+                    d="M22.15611,11.47681a5.06687,5.06687,0,0,0,1.159-3.62989,5.15524,5.15524,0,0,0-3.33555,1.72582,4.82131,4.82131,0,0,0-1.18934,3.4955A4.26259,4.26259,0,0,0,22.15611,11.47681Z"
+                  />
+                </svg>
+                <span>Download on the App Store</span>
+              </a>
+
+          <p class="app-card-note">Free, optional in-app purchases</p>
+          <img class="app-card-qr" src="/img/app-store-qr.png" alt="QR code linking to Make Video to GIF on the App Store" width="96" height="96" loading="lazy" decoding="async" />
+        </div>
+        
+        <nav class="related" aria-label="Related guides">
+          <p class="related-title">Related guides</p>
+          <ul>
+            
+            <li><a href="https://video2gifapp.com/guides/reduce-gif-file-size-on-iphone/"><span class="related-tag">File size</span>Reduce GIF file size on iPhone</a></li>
+            
+            <li><a href="https://video2gifapp.com/guides/best-fps-for-a-gif/"><span class="related-tag">Frame rate</span>Best FPS for a GIF</a></li>
+            
+            <li><a href="https://video2gifapp.com/guides/crop-a-gif-on-iphone/"><span class="related-tag">Crop</span>Crop a GIF on iPhone</a></li>
+            
+          </ul>
+          <a class="pill-link" href="https://video2gifapp.com/guides/">All guides</a>
+        </nav>
+        
+      </aside>
+    </main>
+
+      <footer class="site-footer">
+        <div class="footer-inner">
+          <div class="footer-brand">
+            <a class="footer-logo" href="https://video2gifapp.com/">
+              <img src="/img/logo.webp" alt="" width="44" height="44" loading="lazy" decoding="async" />
+              <span>Make Video to GIF</span>
+            </a>
+            <p class="footer-tagline">A video to GIF converter for iPhone: trim, crop, frame rate, loop count and encoder, exported on the device.</p>
+            <a class="footer-store" href="https://apps.apple.com/app/id6762465120" target="_blank" rel="noopener noreferrer" aria-label="Download Make Video to GIF on the App Store">
+              <svg width="15" height="18" viewBox="14 8 14 26" aria-hidden="true"><path fill="currentColor" d="M24.99671,19.88935a5.14625,5.14625,0,0,1,2.45058-4.31771,5.26776,5.26776,0,0,0-4.15039-2.24376c-1.74624-.1833-3.43913,1.04492-4.329,1.04492-.90707,0-2.27713-1.02672-3.75247-.99637a5.52735,5.52735,0,0,0-4.65137,2.8367c-2.01111,3.482-.511,8.59939,1.41551,11.414.96388,1.37823,2.09037,2.91774,3.56438,2.86315,1.4424-.05983,1.98111-.91977,3.7222-.91977,1.72494,0,2.23035.91977,3.73427.88506,1.54777-.02512,2.52292-1.38435,3.453-2.77563a11.39931,11.39931,0,0,0,1.579-3.21589A4.97284,4.97284,0,0,1,24.99671,19.88935Z"/><path fill="currentColor" d="M22.15611,11.47681a5.06687,5.06687,0,0,0,1.159-3.62989,5.15524,5.15524,0,0,0-3.33555,1.72582,4.82131,4.82131,0,0,0-1.18934,3.4955A4.26259,4.26259,0,0,0,22.15611,11.47681Z"/></svg>
+              <span>Download on the App Store</span>
+            </a>
+          </div>
+
+          <nav class="footer-col" aria-label="App">
+            <p class="footer-col-title">App</p>
+            <ul>
+              <li><a href="https://video2gifapp.com/#screenshots">Screenshots</a></li>
+              <li><a href="https://video2gifapp.com/#how-it-works">How it works</a></li>
+              <li><a href="https://video2gifapp.com/#faq">FAQ</a></li>
+              <li><a href="https://apps.apple.com/app/id6762465120" target="_blank" rel="noopener noreferrer">App Store listing</a></li>
+            </ul>
+          </nav>
+
+          
+          <nav class="footer-col footer-col-guides" aria-label="Popular guides">
+            <p class="footer-col-title">Popular guides</p>
+            <ul>
+              
+              <li><a href="https://video2gifapp.com/guides/make-a-gif-from-a-video-on-iphone/">Make a GIF from a video on iPhone</a></li>
+              
+              <li><a href="https://video2gifapp.com/guides/reduce-gif-file-size-on-iphone/">Reduce GIF file size on iPhone</a></li>
+              
+              <li><a href="https://video2gifapp.com/guides/make-a-gif-for-discord-on-iphone/">Make a GIF for Discord on iPhone</a></li>
+              
+              <li><a href="https://video2gifapp.com/guides/gif-not-working-on-iphone/">GIFs not working on iPhone</a></li>
+              
+              <li><a href="https://video2gifapp.com/guides/best-gif-maker-apps-for-iphone/">Best GIF maker apps for iPhone</a></li>
+              
+              <li><a href="https://video2gifapp.com/guides/live-photo-to-gif-on-iphone/">Live Photo to GIF</a></li>
+              
+              <li><a class="footer-all" href="https://video2gifapp.com/guides/">All guides</a></li>
+            </ul>
+          </nav>
+          
+
+          <nav class="footer-col" aria-label="Legal">
+            <p class="footer-col-title">Legal</p>
+            <ul>
+              <li><a href="/privacy.html">Privacy Policy</a></li>
+              <li><a href="/terms.html">Terms of Use</a></li>
+              <li><a href="https://apps.apple.com/developer/id1239180595" target="_blank" rel="noopener noreferrer">More apps by c-basso</a></li>
+            </ul>
+          </nav>
+
+          
+        </div>
+        <div class="footer-bottom">
+          <p>© 2026 c-basso, makers of Make Video to GIF</p>
+          <p>Updated <time datetime="2026-10-21">October 21, 2026</time></p>
+        </div>
+      </footer>
+
+
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"Article","headline":"How to turn an iPhone screen recording into a GIF","description":"Turn an iPhone screen recording into a sharp, small GIF for a bug report, GitHub README, Slack or a product demo. Record, trim, crop the status bar, set FPS.","image":["https://video2gifapp.com/img/screenshots/2.webp"],"author":{"@type":"Organization","name":"c-basso","url":"https://video2gifapp.com/","logo":{"@type":"ImageObject","url":"https://video2gifapp.com/img/logo.webp"}},"publisher":{"@type":"Organization","name":"c-basso","url":"https://video2gifapp.com/","logo":{"@type":"ImageObject","url":"https://video2gifapp.com/img/logo.webp"}},"datePublished":"2026-10-21","dateModified":"2026-10-21","mainEntityOfPage":"https://video2gifapp.com/guides/screen-recording-to-gif-on-iphone/","inLanguage":"en","about":{"@type":"MobileApplication","name":"Make Video to GIF","url":"https://video2gifapp.com/","operatingSystem":"iOS"}}
+    </script>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"HowTo","name":"Step by step: screen recording to GIF","description":"About two minutes including the recording.","image":"https://video2gifapp.com/img/screenshots/2.webp","totalTime":"PT2M","inLanguage":"en","tool":[{"@type":"HowToTool","name":"Make Video to GIF"}],"step":[{"@type":"HowToStep","position":1,"name":"Record the flow","text":"Start Screen Recording from Control Center, perform the interaction slowly once, then stop.","url":"https://video2gifapp.com/guides/screen-recording-to-gif-on-iphone/#step-1"},{"@type":"HowToStep","position":2,"name":"Open it in Make Video to GIF","text":"Pick the recording in the app, or share it from Photos into Make Video to GIF.","url":"https://video2gifapp.com/guides/screen-recording-to-gif-on-iphone/#step-2"},{"@type":"HowToStep","position":3,"name":"Trim to the interaction","text":"Cut the countdown and the moment you open Control Center to stop recording.","url":"https://video2gifapp.com/guides/screen-recording-to-gif-on-iphone/#step-3"},{"@type":"HowToStep","position":4,"name":"Crop and set FPS","text":"Crop away the status bar and set 8–12 FPS; choose the palette-detail encoder for sharp text.","url":"https://video2gifapp.com/guides/screen-recording-to-gif-on-iphone/#step-4"},{"@type":"HowToStep","position":5,"name":"Export and attach","text":"Convert to GIF, then drag it into the issue, README or Slack thread, or share it from the share sheet.","url":"https://video2gifapp.com/guides/screen-recording-to-gif-on-iphone/#step-5"}]}
+    </script>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"FAQPage","inLanguage":"en","mainEntity":[{"@type":"Question","name":"What is the GIF size limit on GitHub?","acceptedAnswer":{"@type":"Answer","text":"GitHub accepts images and GIFs up to 10 MB in issues, pull requests and comments; videos can be up to 100 MB."}},{"@type":"Question","name":"Why is the text in my GIF blurry?","acceptedAnswer":{"@type":"Answer","text":"GIF has 256 colors per frame and resizing softens text. Crop instead of scaling down, and use the encoder mode that favours palette detail."}},{"@type":"Question","name":"Can I record the screen with sound for a GIF?","acceptedAnswer":{"@type":"Answer","text":"GIFs have no sound, so turn the microphone off; the recording's audio is dropped anyway."}}]}
+    </script>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"WebPage","name":"Screen Recording to GIF on iPhone: For Bug Reports and Demos","url":"https://video2gifapp.com/guides/screen-recording-to-gif-on-iphone/","description":"Turn an iPhone screen recording into a sharp, small GIF for a bug report, GitHub README, Slack or a product demo. Record, trim, crop the status bar, set FPS.","dateModified":"2026-10-21","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Make Video to GIF","url":"https://video2gifapp.com/"}}
+    </script>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://video2gifapp.com/"},{"@type":"ListItem","position":2,"name":"Guides","item":"https://video2gifapp.com/guides/"},{"@type":"ListItem","position":3,"name":"How to turn an iPhone screen recording into a GIF","item":"https://video2gifapp.com/guides/screen-recording-to-gif-on-iphone/"}]}
+    </script>
+
+    <script src="/site.js?v=1792607214957" defer></script>
+<!-- Analytics: paste the counter snippet for video2gifapp.com here. Empty = no analytics. -->
+
+  </body>
+</html>

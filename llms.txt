@@ -33,6 +33,19 @@
 ## How-to guides (English)
 - [All guides](https://video2gifapp.com/guides/)
 - [How to make a GIF from a video on iPhone](https://video2gifapp.com/guides/make-a-gif-from-a-video-on-iphone/): Turn any iPhone video into a GIF: the free Video to GIF shortcut for a quick loop, or an app to trim, crop, set FPS and loop and see the size before export.
+- [How to make a GIF smaller on iPhone](https://video2gifapp.com/guides/reduce-gif-file-size-on-iphone/): Make a GIF smaller on iPhone: trim seconds, crop, lower the frame rate and pick the right encoder. Which setting saves the most, with real numbers to aim for.
+- [How to make a GIF for Discord on iPhone](https://video2gifapp.com/guides/make-a-gif-for-discord-on-iphone/): Turn a clip into a GIF for Discord on iPhone and keep it under the upload limit: 20 MB free, 50 MB Nitro Basic, 500 MB Nitro. Settings that make it fit.
+- [GIFs not working on iPhone: how to fix frozen GIFs](https://video2gifapp.com/guides/gif-not-working-on-iphone/): GIFs frozen or not moving on iPhone? Check Reduce Motion, #images in Messages, the Animated album, iCloud downloads and whether the file is a real GIF.
+- [The best GIF maker apps for iPhone, compared honestly](https://video2gifapp.com/guides/best-gif-maker-apps-for-iphone/): Shortcuts, GIPHY or a dedicated GIF maker? What each iPhone option does well, what it can't control, and which to pick for reactions, Discord or screen demos.
+- [How to turn a Live Photo into a GIF on iPhone](https://video2gifapp.com/guides/live-photo-to-gif-on-iphone/): Convert a Live Photo to a GIF on iPhone with the Make GIF shortcut, or save it as a video first for full control over trim, crop, frame rate and loop count.
+- [How to turn an iPhone screen recording into a GIF](https://video2gifapp.com/guides/screen-recording-to-gif-on-iphone/): Turn an iPhone screen recording into a sharp, small GIF for a bug report, GitHub README, Slack or a product demo. Record, trim, crop the status bar, set FPS.
+- [What frame rate should a GIF be?](https://video2gifapp.com/guides/best-fps-for-a-gif/): The best frame rate for a GIF is usually 10–15 FPS. Why 24 FPS becomes 25, why GIFs can't go above 50 FPS, and the right setting for reactions, games and UI.
+- [How to send a video as a GIF on WhatsApp from iPhone](https://video2gifapp.com/guides/send-a-video-as-a-gif-on-whatsapp/): WhatsApp turns videos of 6 seconds or less into GIFs. How to use the built-in GIF switch on iPhone, and what to do for longer clips or more control over it.
+- [How to make a GIF loop forever, or play just once](https://video2gifapp.com/guides/make-a-gif-loop-on-iphone/): Set a GIF to loop forever, play once or repeat a few times on iPhone, why some GIFs stop after one play, and how to trim a video into a seamless loop.
+- [How to save a GIF on iPhone and keep it animated](https://video2gifapp.com/guides/save-a-gif-on-iphone/): Save GIFs on iPhone from Safari, Messages and other apps so they stay animated: where they land in Photos, why some save as stills, and how to keep the file.
+- [Video to GIF shortcut not working: fixes and alternatives](https://video2gifapp.com/guides/video-to-gif-shortcut-not-working/): The Video to GIF shortcut fails or makes huge files? Check photo access, iCloud downloads, clip length and the large-data setting, or use a GIF app instead.
+- [GIF size limits for Discord, GitHub, WhatsApp and email](https://video2gifapp.com/guides/gif-size-limits-by-platform/): Maximum GIF sizes and lengths for Discord (20 MB free), GitHub (10 MB), WhatsApp (6 s video to GIF), Discord emoji and email, plus how to fit a GIF under each.
+- [How to crop a GIF on iPhone](https://video2gifapp.com/guides/crop-a-gif-on-iphone/): Crop a video into a square, portrait or wide GIF on iPhone. Pick the right shape for chats, Discord, Slack and READMEs, and get a smaller file as a bonus.
 
 ## Language pages
 - [en](https://video2gifapp.com/)

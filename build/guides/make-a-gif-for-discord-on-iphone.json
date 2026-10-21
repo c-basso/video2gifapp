@@ -1,0 +1,118 @@
+{
+  "priority": 3,
+  "keyword": "gif for discord iphone",
+  "keywords": "gif for discord, discord gif size limit, discord gif too big, make discord gif iphone, upload gif to discord iphone, discord file size limit",
+  "title": "Make a GIF for Discord on iPhone (and Fit the Size Limit)",
+  "description": "Turn a clip into a GIF for Discord on iPhone and keep it under the upload limit: 20 MB free, 50 MB Nitro Basic, 500 MB Nitro. Settings that make it fit.",
+  "h1": "How to make a GIF for Discord on iPhone",
+  "eyebrow": "Discord",
+  "card_title": "Make a GIF for Discord on iPhone",
+  "card_summary": "Fit Discord's upload limit and make the loop look good in chat.",
+  "quick_answer": "Make the GIF from your video, keep it under Discord's upload limit (20 MB per file on a free account, 50 MB with Nitro Basic, 500 MB with Nitro), then send it from the iOS share sheet or attach it with the + button in the Discord app. In Make Video to GIF, trim to a few seconds, crop to the action and set 12–15 FPS; the estimated size tells you whether it fits before you export.",
+  "intro": [
+    "Discord plays GIFs inline and loops them forever, which makes them perfect for reactions, clips from a game or a quick UI demo. The catch is the upload limit: a raw phone video turned into a GIF easily goes past it.",
+    "Discord raised the free upload limit from 10 MB to 20 MB per file in August 2026. Here is how to land under it on iPhone without the GIF turning into a blurry mess."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/3.webp",
+    "alt": "Trim screen in Make Video to GIF with a 0:05 to 0:13 selection on the frame strip",
+    "caption": "Trimming is the fastest way to fit a GIF under Discord's limit."
+  },
+  "sections": [
+    {
+      "heading": "Discord's size limits",
+      "paragraphs": [
+        "The limit is per file and depends on your account, not on the server:"
+      ],
+      "table": {
+        "head": [
+          "Account",
+          "Max upload per file"
+        ],
+        "rows": [
+          [
+            "Free",
+            "20 MB"
+          ],
+          [
+            "Nitro Basic",
+            "50 MB"
+          ],
+          [
+            "Nitro",
+            "500 MB"
+          ]
+        ]
+      },
+      "note": "Free limit as of August 2026, when Discord raised it from 10 MB. Server boosts can raise limits for everyone in that server."
+    },
+    {
+      "heading": "Settings that work well in Discord",
+      "paragraphs": [
+        "Discord shows GIFs in a chat column a few hundred pixels wide, so full 1080p frames are wasted. A crop around the action and 12–15 FPS keep reactions readable and small. Game clips with fast motion look better at 20 FPS or more; trim them shorter to pay for it."
+      ]
+    },
+    {
+      "heading": "Upload from iPhone",
+      "paragraphs": [
+        "After export, tap Share in Make Video to GIF and choose Discord, or save the GIF to Photos and attach it in Discord with the + button next to the message field. Either way Discord receives the GIF file and plays it inline."
+      ]
+    }
+  ],
+  "steps": {
+    "heading": "Step by step: a Discord-ready GIF",
+    "intro": "About a minute from clip to chat.",
+    "total_time": "PT1M",
+    "items": [
+      {
+        "name": "Pick the clip",
+        "text": "Open Make Video to GIF and choose the video, or share a screen recording into the app."
+      },
+      {
+        "name": "Trim to the reaction",
+        "text": "Tap Edit Video and keep 2–5 seconds around the moment."
+      },
+      {
+        "name": "Crop and set FPS",
+        "text": "Crop to the action with an aspect preset and set 12–15 FPS in GIF settings."
+      },
+      {
+        "name": "Check the estimate",
+        "text": "Make sure the estimated size is under your limit (20 MB on a free account), then tap Convert to GIF."
+      },
+      {
+        "name": "Send it to Discord",
+        "text": "Tap Share and choose Discord, or save to Photos and attach the GIF in the Discord app."
+      }
+    ]
+  },
+  "tips": {
+    "heading": "Tips for Discord",
+    "items": [
+      "Set an infinite loop: Discord loops GIFs, and a loop that returns to its first frame looks seamless.",
+      "Custom server emoji have a much smaller limit (256 KB), so make emoji GIFs tiny: a small square, a second or two.",
+      "If a GIF is just over the limit, drop the frame rate a step before cutting more seconds."
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is Discord's GIF size limit?",
+      "answer": "GIFs follow the normal file limit: 20 MB per file on a free account, 50 MB with Nitro Basic and 500 MB with Nitro."
+    },
+    {
+      "question": "Why does Discord say my GIF is too large?",
+      "answer": "The file is over your account's upload limit. Trim it shorter, crop it, or lower the frame rate and export again."
+    },
+    {
+      "question": "Can I use a GIF as my Discord avatar?",
+      "answer": "Animated avatars and banners are a Nitro feature. On a free account a GIF avatar shows as a still image."
+    }
+  ],
+  "related": [
+    "reduce-gif-file-size-on-iphone",
+    "gif-size-limits-by-platform",
+    "screen-recording-to-gif-on-iphone"
+  ],
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

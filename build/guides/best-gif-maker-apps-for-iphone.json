@@ -1,0 +1,146 @@
+{
+  "priority": 5,
+  "keyword": "best gif maker app iphone",
+  "keywords": "best gif maker app, gif maker app iphone, best video to gif app, gif app for iphone, gif creator iphone, giphy alternative",
+  "title": "Best GIF Maker Apps for iPhone: An Honest Comparison",
+  "description": "Shortcuts, GIPHY or a dedicated GIF maker? What each iPhone option does well, what it can't control, and which to pick for reactions, Discord or screen demos.",
+  "h1": "The best GIF maker apps for iPhone, compared honestly",
+  "eyebrow": "Compare",
+  "card_title": "Best GIF maker apps for iPhone",
+  "card_summary": "Shortcuts, GIPHY and a dedicated converter: what each controls and when to use it.",
+  "quick_answer": "For an occasional GIF, Apple's free Video to GIF shortcut is enough. For stickers, text and sharing to the GIPHY library, use GIPHY. When the GIF has to look right and fit a size limit, a dedicated converter such as Make Video to GIF gives you trim, crop, frame rate, loop count and encoder control with an estimated file size before export. We make Make Video to GIF, so weigh that recommendation accordingly.",
+  "intro": [
+    "\"Best\" depends on the job. A meme for a group chat, a 20 MB-limited Discord clip and a GIF of a bug for GitHub need different things, and no single app wins at all of them.",
+    "Below are the three kinds of tools people actually use on iPhone, judged on the questions that decide the result: can you pick the exact seconds, control size, keep the video private, and get a real GIF file out."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/1.webp",
+    "alt": "Make Video to GIF App Store screenshot with a video icon turning into a GIF icon",
+    "caption": "Disclosure: Make Video to GIF is our app."
+  },
+  "sections": [
+    {
+      "heading": "Side by side",
+      "paragraphs": [
+        "What each option lets you control:"
+      ],
+      "table": {
+        "head": [
+          "",
+          "Video to GIF shortcut",
+          "GIPHY app",
+          "Make Video to GIF"
+        ],
+        "rows": [
+          [
+            "Price",
+            "Free (built into iOS)",
+            "Free",
+            "Free download, in-app purchases"
+          ],
+          [
+            "Pick the seconds",
+            "Basic trim",
+            "Yes",
+            "Timeline trim"
+          ],
+          [
+            "Crop",
+            "No (edit the shortcut)",
+            "Not the focus",
+            "Aspect presets"
+          ],
+          [
+            "Frame rate / loop count",
+            "No (edit the shortcut)",
+            "No",
+            "Yes"
+          ],
+          [
+            "File size before export",
+            "No",
+            "No",
+            "Estimated size"
+          ],
+          [
+            "Text, stickers, effects",
+            "No",
+            "Yes",
+            "No"
+          ],
+          [
+            "Where the GIF goes",
+            "Saved to Photos",
+            "Saved, or uploaded to GIPHY's public library if you choose",
+            "Encoded on the iPhone, then shared"
+          ]
+        ]
+      },
+      "note": "Apps change between versions; check the current App Store listing before you rely on a feature."
+    },
+    {
+      "heading": "Pick by situation",
+      "paragraphs": [
+        "Reaction for a group chat: the shortcut or GIPHY. A caption or sticker on top: GIPHY. Discord, Slack, a forum or a README where size and readability matter: a converter with FPS, crop and a size estimate. A screen recording of an app: a converter, because cropping the status bar and lowering FPS keeps UI text sharp and the file small."
+      ]
+    },
+    {
+      "heading": "What to avoid",
+      "paragraphs": [
+        "Watch for apps that export a video and call it a GIF (it will not animate as an image in other apps), watermark the result unless you pay, or upload your clip to a server to convert it. If privacy matters, check that the conversion happens on the device."
+      ]
+    }
+  ],
+  "steps": {
+    "heading": "How to test any GIF app in two minutes",
+    "intro": "Run the same clip through each app you are considering.",
+    "total_time": "PT2M",
+    "items": [
+      {
+        "name": "Use one 10-second clip",
+        "text": "Pick a clip with motion and some fine detail, like text on a screen."
+      },
+      {
+        "name": "Make a 3-second GIF",
+        "text": "Trim to the same three seconds in each app."
+      },
+      {
+        "name": "Compare the file",
+        "text": "Save each GIF to Files and compare sizes, sharpness and banding."
+      },
+      {
+        "name": "Check it is a real GIF",
+        "text": "Open it in the Photos Animated album or send it to yourself in another app to confirm it animates."
+      }
+    ]
+  },
+  "tips": {
+    "heading": "Tips",
+    "items": [
+      "An app that shows the file size before export saves the most trial and error.",
+      "Exports without watermarks matter if the GIF is for work.",
+      "Keep the original video: you can always make a better GIF from it later."
+    ]
+  },
+  "faq": [
+    {
+      "question": "Is there a free GIF maker on iPhone?",
+      "answer": "Yes. The Video to GIF shortcut in Apple's Shortcuts Gallery is free and makes basic GIFs from videos."
+    },
+    {
+      "question": "Which GIF app gives the smallest files?",
+      "answer": "One that lets you control frame rate, crop and encoder. File size depends far more on those settings than on the app itself."
+    },
+    {
+      "question": "Do GIF apps upload my videos?",
+      "answer": "Some converters do, especially websites. Shortcuts and Make Video to GIF make the GIF on the iPhone; on GIPHY, uploading to its public library is a separate, optional step."
+    }
+  ],
+  "related": [
+    "make-a-gif-from-a-video-on-iphone",
+    "video-to-gif-shortcut-not-working",
+    "reduce-gif-file-size-on-iphone"
+  ],
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

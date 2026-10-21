@@ -131,7 +131,11 @@
       "answer": "There is no hard limit, but size grows quickly with length, resolution and frame rate. Most chat apps and forums work best with GIFs of a few seconds and a few megabytes."
     }
   ],
-  "related": [],
+  "related": [
+    "reduce-gif-file-size-on-iphone",
+    "best-gif-maker-apps-for-iphone",
+    "video-to-gif-shortcut-not-working"
+  ],
   "published": "2026-10-21",
   "updated": "2026-10-21"
 }

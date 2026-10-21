@@ -1,0 +1,128 @@
+{
+  "priority": 11,
+  "keyword": "how to save a gif on iphone",
+  "keywords": "how to save a gif on iphone, save gif to camera roll, save gif from safari iphone, save gif from messages, where are gifs saved iphone, animated album iphone",
+  "title": "How to Save a GIF on iPhone So It Stays Animated (2026)",
+  "description": "Save GIFs on iPhone from Safari, Messages and other apps so they stay animated: where they land in Photos, why some save as stills, and how to keep the file.",
+  "h1": "How to save a GIF on iPhone and keep it animated",
+  "eyebrow": "Save",
+  "card_title": "Save a GIF on iPhone",
+  "card_summary": "Save GIFs from Safari, Messages and apps without losing the animation.",
+  "quick_answer": "Touch and hold the GIF and choose Save to Photos (Safari) or Save (Messages). Saved GIFs appear in Photos under Albums > Media Types > Animated and play when opened. To keep the original file for Discord, Slack or a computer, use Share > Save to Files instead. If an app only saves a still frame, it is not giving you a GIF file.",
+  "intro": [
+    "Saving a GIF on iPhone is a long-press away, but where you save it from decides whether you get the animated file or just its first frame.",
+    "Here is where each option puts the GIF and how to check you kept the animation."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/4.webp",
+    "alt": "Creating GIF progress in Make Video to GIF with a Cancel button",
+    "caption": "GIFs you make in the app can be saved to Photos straight from the share sheet.",
+    "hide_in_article": true
+  },
+  "sections": [
+    {
+      "heading": "Where to tap in each app",
+      "paragraphs": [
+        "The common places:"
+      ],
+      "table": {
+        "head": [
+          "Where",
+          "How to save",
+          "Ends up in"
+        ],
+        "rows": [
+          [
+            "Safari",
+            "Touch and hold the GIF > Save to Photos",
+            "Photos, Animated album"
+          ],
+          [
+            "Messages",
+            "Touch and hold the GIF > Save",
+            "Photos, Animated album"
+          ],
+          [
+            "Mail",
+            "Touch and hold the attachment > Save Image",
+            "Photos"
+          ],
+          [
+            "Any app with a share sheet",
+            "Share > Save to Files",
+            "Files, as the original .gif"
+          ],
+          [
+            "Make Video to GIF",
+            "After export: Share > Save Image or Save to Files",
+            "Photos or Files"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Photos or Files?",
+      "paragraphs": [
+        "Photos is convenient for sending GIFs again from your iPhone. Files keeps the original .gif untouched, which is better when you will upload it from a computer, attach it to GitHub or need the exact file size."
+      ]
+    },
+    {
+      "heading": "If the saved GIF does not move",
+      "paragraphs": [
+        "Open it full screen; grid thumbnails can stay still. If it is not in the Animated album, the app saved a still image or a video. Some sites serve looping MP4 videos that only look like GIFs; for those, save the video and make a GIF from it."
+      ]
+    }
+  ],
+  "steps": {
+    "heading": "Check that a saved GIF is animated",
+    "intro": "Ten seconds to be sure.",
+    "total_time": "PT1M",
+    "items": [
+      {
+        "name": "Open Photos",
+        "text": "Go to Albums and scroll to Media Types."
+      },
+      {
+        "name": "Open Animated",
+        "text": "Animated GIFs you saved are listed here."
+      },
+      {
+        "name": "Open the GIF",
+        "text": "Tap it; it should play full screen."
+      },
+      {
+        "name": "If it is missing, convert",
+        "text": "If it saved as a video, open the video in Make Video to GIF and export a real GIF."
+      }
+    ]
+  },
+  "tips": {
+    "heading": "Tips",
+    "items": [
+      "Screenshots of GIFs are always still images.",
+      "AirDrop sends the original file, so it keeps the animation between Apple devices.",
+      "Keep work GIFs in a Files folder so they don't get lost among photos."
+    ]
+  },
+  "faq": [
+    {
+      "question": "Where are GIFs saved on iPhone?",
+      "answer": "In Photos, under Albums > Media Types > Animated, and in Recents. If you used Save to Files, in the folder you picked in the Files app."
+    },
+    {
+      "question": "Why did my GIF save as a still picture?",
+      "answer": "The app shared a single frame or the page served a video instead of a GIF. Save the video and convert it to a GIF."
+    },
+    {
+      "question": "Can I save GIFs from #images in Messages?",
+      "answer": "Yes. Send or open the GIF in the conversation, touch and hold it and choose Save."
+    }
+  ],
+  "related": [
+    "gif-not-working-on-iphone",
+    "make-a-gif-from-a-video-on-iphone",
+    "live-photo-to-gif-on-iphone"
+  ],
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

@@ -1,0 +1,100 @@
+{
+  "priority": 12,
+  "keyword": "video to gif shortcut not working",
+  "keywords": "video to gif shortcut not working, make gif shortcut not working, shortcuts gif failed iphone, video to gif shortcut alternative, shortcut gif too large",
+  "title": "Video to GIF Shortcut Not Working? Fixes and Alternatives",
+  "description": "The Video to GIF shortcut fails or makes huge files? Check photo access, iCloud downloads, clip length and the large-data setting, or use a GIF app instead.",
+  "h1": "Video to GIF shortcut not working: fixes and alternatives",
+  "eyebrow": "Fix",
+  "card_title": "Video to GIF shortcut not working",
+  "card_summary": "Why the Shortcuts GIF maker fails on long or iCloud videos, and what to do.",
+  "quick_answer": "Most failures come from four things: Shortcuts has no access to Photos (Settings > Privacy & Security > Photos > Shortcuts), the video is still in iCloud and needs to download first, the clip is too long for the shortcut to process, or Shortcuts blocks large data (Settings > Apps > Shortcuts > Advanced > Allow Sharing Large Amounts of Data). Trim the video shorter and try again; if you need control over size and quality, use a dedicated GIF app.",
+  "intro": [
+    "The Video to GIF shortcut from Apple's Shortcuts Gallery is a great free tool, but it runs every frame through a simple pipeline with no settings, so long or high-resolution clips can fail silently, take ages or produce enormous files.",
+    "Here are the fixes, in order of how often they help."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/4.webp",
+    "alt": "Creating GIF progress at 34 percent with a Cancel button in Make Video to GIF",
+    "caption": "A dedicated app shows progress and lets you cancel long exports."
+  },
+  "sections": [
+    {
+      "heading": "Fixes",
+      "paragraphs": [
+        "Try these one at a time:"
+      ],
+      "list": [
+        "Give Shortcuts photo access: Settings > Privacy & Security > Photos > Shortcuts > Full Access.",
+        "Download the video first: open it in Photos and wait until it plays without a loading circle.",
+        "Trim a long video in Photos (Edit) before running the shortcut, or pick a shorter clip.",
+        "Allow large data: Settings > Apps > Shortcuts > Advanced > Allow Sharing Large Amounts of Data.",
+        "Remove the shortcut and add it again from the Gallery if you edited its actions.",
+        "Restart the iPhone if Shortcuts stops responding; low free storage can also make it fail."
+      ],
+      "ordered": true
+    },
+    {
+      "heading": "When the shortcut works but the GIF is bad",
+      "paragraphs": [
+        "Huge files, choppy motion or the wrong framing are not bugs: the shortcut has no frame rate, crop or size controls unless you edit its actions. An app with those settings fixes this without building your own shortcut."
+      ]
+    }
+  ],
+  "steps": {
+    "heading": "Alternative: make the GIF in Make Video to GIF",
+    "intro": "Same clip, with settings and progress.",
+    "total_time": "PT1M",
+    "items": [
+      {
+        "name": "Open the video",
+        "text": "Pick it in Make Video to GIF, or share it from Photos into the app."
+      },
+      {
+        "name": "Trim",
+        "text": "Tap Edit Video and keep the seconds you need."
+      },
+      {
+        "name": "Adjust",
+        "text": "Set FPS, crop and loop in GIF settings and check the estimated size."
+      },
+      {
+        "name": "Convert",
+        "text": "Tap Convert to GIF; a progress ring shows how far along it is, and you can cancel."
+      },
+      {
+        "name": "Share or save",
+        "text": "Send it from the share sheet or save it to Photos."
+      }
+    ]
+  },
+  "tips": {
+    "heading": "Tips",
+    "items": [
+      "4K or 60 FPS videos are the most likely to fail in the shortcut; trim them first.",
+      "If the shortcut saves a GIF that won't move, see the guide on GIFs not working on iPhone.",
+      "Keep both: the shortcut for quick throwaway GIFs, an app when size and quality matter."
+    ]
+  },
+  "faq": [
+    {
+      "question": "Why does the Video to GIF shortcut do nothing?",
+      "answer": "Usually missing photo access or a video that is still downloading from iCloud. Check both, then try a short clip."
+    },
+    {
+      "question": "Why is the shortcut's GIF so big?",
+      "answer": "It keeps the full resolution and frame rate. Trim the clip shorter or use an app that lets you lower FPS and crop."
+    },
+    {
+      "question": "Is there a better free alternative?",
+      "answer": "The Make GIF shortcut handles Live Photos and bursts. For videos with size control, use a dedicated GIF app."
+    }
+  ],
+  "related": [
+    "make-a-gif-from-a-video-on-iphone",
+    "best-gif-maker-apps-for-iphone",
+    "gif-not-working-on-iphone"
+  ],
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

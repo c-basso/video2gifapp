@@ -1,0 +1,137 @@
+{
+  "priority": 13,
+  "keyword": "gif size limit",
+  "keywords": "gif size limit, discord gif size limit, github gif size limit, whatsapp gif length, max gif size, gif file size limit email",
+  "title": "GIF Size Limits: Discord, GitHub, WhatsApp and Email",
+  "description": "Maximum GIF sizes and lengths for Discord (20 MB free), GitHub (10 MB), WhatsApp (6 s video to GIF), Discord emoji and email, plus how to fit a GIF under each.",
+  "h1": "GIF size limits for Discord, GitHub, WhatsApp and email",
+  "eyebrow": "Limits",
+  "card_title": "GIF size limits by platform",
+  "card_summary": "Upload limits in one table, with the settings that fit a GIF under each.",
+  "quick_answer": "Discord: 20 MB per file on a free account, 50 MB with Nitro Basic, 500 MB with Nitro; custom emoji 256 KB. GitHub: 10 MB for images and GIFs. WhatsApp: its video-to-GIF switch works on clips of 6 seconds or less. Email: most providers cap attachments around 25 MB. To fit a limit, trim seconds first, then crop, then lower the frame rate.",
+  "intro": [
+    "Every platform that plays GIFs puts a ceiling on them, and the error you get when you go over is rarely helpful.",
+    "This page collects the limits that matter most for GIFs made on a phone. Limits change, so each row says where it comes from and when it was checked."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/2.webp",
+    "alt": "GIF settings in Make Video to GIF with an estimated file size of 4.8 MB",
+    "caption": "Check the estimated size against the limit before you export."
+  },
+  "sections": [
+    {
+      "heading": "The limits",
+      "paragraphs": [
+        "Last reviewed October 2026:"
+      ],
+      "table": {
+        "head": [
+          "Platform",
+          "Limit",
+          "Source"
+        ],
+        "rows": [
+          [
+            "Discord, free account",
+            "20 MB per file",
+            "Raised from 10 MB in August 2026"
+          ],
+          [
+            "Discord Nitro Basic / Nitro",
+            "50 MB / 500 MB per file",
+            "Discord plans"
+          ],
+          [
+            "Discord custom emoji",
+            "256 KB",
+            "Discord emoji upload rules"
+          ],
+          [
+            "GitHub issues, PRs, comments",
+            "10 MB for images and GIFs",
+            "GitHub Docs, Attaching files"
+          ],
+          [
+            "WhatsApp video to GIF",
+            "Clip of 6 seconds or less",
+            "WhatsApp iPhone app"
+          ],
+          [
+            "Email attachments",
+            "About 25 MB with most providers",
+            "Provider limits vary"
+          ]
+        ]
+      },
+      "note": "Platforms that convert GIFs to video (Telegram and others) may accept larger files but change how they play. Check the platform's help pages if you are close to a limit."
+    },
+    {
+      "heading": "How to fit under a limit",
+      "paragraphs": [
+        "Cut in this order, because it costs the least quality: seconds first, then crop, then frame rate, then the encoder. Halving the frame rate roughly halves the size; a square crop of a widescreen clip removes almost half of each frame."
+      ]
+    },
+    {
+      "heading": "Rules of thumb for size",
+      "paragraphs": [
+        "A 3-second reaction at 12 FPS with a cropped frame usually lands in the low single-digit megabytes. A 10-second full-frame clip at 24 FPS can run into tens of megabytes. That is why the estimate before export matters more than any fixed recipe."
+      ]
+    }
+  ],
+  "steps": {
+    "heading": "Fit a GIF under a limit in Make Video to GIF",
+    "intro": "Uses the estimated size as your target.",
+    "total_time": "PT2M",
+    "items": [
+      {
+        "name": "Note the target",
+        "text": "For example 20 MB for Discord or 10 MB for GitHub."
+      },
+      {
+        "name": "Trim",
+        "text": "Keep only the seconds that matter."
+      },
+      {
+        "name": "Crop",
+        "text": "Pick an aspect preset around the subject."
+      },
+      {
+        "name": "Lower FPS if needed",
+        "text": "Step the frame rate down until the estimate is under the target."
+      },
+      {
+        "name": "Convert and upload",
+        "text": "Tap Convert to GIF and upload or share the file."
+      }
+    ]
+  },
+  "tips": {
+    "heading": "Tips",
+    "items": [
+      "Leave some margin under a hard limit; estimates are estimates.",
+      "For emoji-size limits, start from a tiny square crop and 1–2 seconds.",
+      "Bookmark this page; limits change and we update the table."
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the maximum GIF size on Discord?",
+      "answer": "20 MB per file on a free account, 50 MB with Nitro Basic and 500 MB with Nitro."
+    },
+    {
+      "question": "How big can a GIF be on GitHub?",
+      "answer": "10 MB for images and GIFs attached to issues, pull requests and comments."
+    },
+    {
+      "question": "How long can a GIF be on WhatsApp?",
+      "answer": "The built-in video-to-GIF switch works on clips of 6 seconds or less."
+    }
+  ],
+  "related": [
+    "reduce-gif-file-size-on-iphone",
+    "make-a-gif-for-discord-on-iphone",
+    "screen-recording-to-gif-on-iphone"
+  ],
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}
